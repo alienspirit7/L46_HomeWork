@@ -26,13 +26,13 @@ TEST_FILES = {
         "path": os.path.join(TEST_FILES_DIR, "test1.mp4"),
         "task": "vehicle_detection",
         "target_classes": ["car", "truck", "bus", "motorcycle", "bicycle"],
-        "description": "Road traffic — vehicle detection",
+        "description": "Road traffic (daytime) — vehicle detection",
     },
     "test2": {
         "path": os.path.join(TEST_FILES_DIR, "test2.mp4"),
         "task": "vehicle_detection",
         "target_classes": ["car", "truck", "bus", "motorcycle", "bicycle"],
-        "description": "Road traffic — vehicle detection",
+        "description": "Road traffic at night — vehicle detection",
     },
     "test3": {
         "path": os.path.join(TEST_FILES_DIR, "test3.mp4"),

@@ -174,8 +174,8 @@ Three outputs are produced:
 
 | File | Task | Target COCO Classes | Description |
 |---|---|---|---|
-| `test1.mp4` | Vehicle detection | car, truck, bus, motorcycle, bicycle | Road traffic footage |
-| `test2.mp4` | Vehicle detection | car, truck, bus, motorcycle, bicycle | Road traffic footage |
+| `test1.mp4` | Vehicle detection | car, truck, bus, motorcycle, bicycle | Road traffic footage (daytime) |
+| `test2.mp4` | Vehicle detection | car, truck, bus, motorcycle, bicycle | Road traffic footage (nighttime, dark scene) |
 | `test3.mp4` | Cyclist/pedestrian detection | person, bicycle | Cyclists and pedestrians |
 
 ---
@@ -211,7 +211,7 @@ Below are sample frames from the annotated output videos, showing how each model
 
 > 🎥 Video filmed with **RayBan Meta** glasses.
 
-### test2 — Road Traffic (Vehicle Detection)
+### test2 — Road Traffic at Night (Vehicle Detection)
 
 | YOLOv8n | YOLOv9c | YOLO11n |
 |---|---|---|
