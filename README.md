@@ -1,5 +1,7 @@
 # YOLO Video Object Detection Comparison
 
+> 📚 **Course Assignment** — This project was developed as a learning home assignment for the **AI Development** course.
+
 A Python project comparing three YOLO model versions — **YOLOv8n**, **YOLOv9c**, and **YOLO11n** — on video object detection tasks. The pipeline processes every frame of each test video, computes eight evaluation metrics, and produces a comparative report with charts and a written conclusion.
 
 ---
@@ -13,8 +15,9 @@ A Python project comparing three YOLO model versions — **YOLOv8n**, **YOLOv9c*
 5. [How It Works](#how-it-works)
 6. [Test Videos](#test-videos)
 7. [Evaluation Metrics](#evaluation-metrics)
-8. [Results](#results)
-9. [Conclusion](#conclusion)
+8. [Detection Examples](#detection-examples)
+9. [Results](#results)
+10. [Conclusion](#conclusion)
 
 ---
 
@@ -193,6 +196,36 @@ Eight metrics are computed per (model × video) run:
 | 8 | **Total Processing Time (s)** | Wall-clock time for entire video | End-to-end speed including I/O |
 
 **How "best" is determined:** For each metric row, the best value across all columns is marked with ★. "Best" means highest for quality metrics and lowest for time metrics.
+
+---
+
+## Detection Examples
+
+Below are sample frames from the annotated output videos, showing how each model detects objects across all three test videos.
+
+### test1 — Road Traffic (Vehicle Detection)
+
+| YOLOv8n | YOLOv9c | YOLO11n |
+|---|---|---|
+| ![YOLOv8n test1](results/screenshots/YOLOv8n_test1.png) | ![YOLOv9c test1](results/screenshots/YOLOv9c_test1.png) | ![YOLO11n test1](results/screenshots/YOLO11n_test1.png) |
+
+> 🎥 Video filmed with **RayBan Meta** glasses.
+
+### test2 — Road Traffic (Vehicle Detection)
+
+| YOLOv8n | YOLOv9c | YOLO11n |
+|---|---|---|
+| ![YOLOv8n test2](results/screenshots/YOLOv8n_test2.png) | ![YOLOv9c test2](results/screenshots/YOLOv9c_test2.png) | ![YOLO11n test2](results/screenshots/YOLO11n_test2.png) |
+
+> 🎥 Video filmed with **RayBan Meta** glasses.
+
+### test3 — Cyclists and Pedestrians
+
+| YOLOv8n | YOLOv9c | YOLO11n |
+|---|---|---|
+| ![YOLOv8n test3](results/screenshots/YOLOv8n_test3.png) | ![YOLOv9c test3](results/screenshots/YOLOv9c_test3.png) | ![YOLO11n test3](results/screenshots/YOLO11n_test3.png) |
+
+> 🎥 Video filmed with **RayBan Meta** glasses.
 
 ---
 
