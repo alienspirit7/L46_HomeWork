@@ -1,0 +1,20 @@
+=== EVALUATION CONCLUSION ===
+
+Models compared: YOLOv8n, YOLOv9c, YOLO11n
+Test videos: Road traffic — vehicle detection, Road traffic — vehicle detection, Cyclists and pedestrians detection
+Frames analysed: 1506 total frames across 3 videos
+
+SPEED: YOLOv8n averaged 53.5 FPS — 332% faster than YOLOv9c.
+
+DETECTION QUALITY: YOLOv9c achieved a high-confidence ratio of 44.4%.
+
+CONSISTENCY: YOLOv8n had the most stable detections (score: 0.63/1.0).
+
+OVERALL WINNER: YOLOv9c led in 4 out of 8 metric categories.
+
+ON VEHICLE DETECTION (test1, test2):
+YOLOv9c detected 3.6/frame. YOLOv9c had best confidence (0.66). YOLOv8n was fastest (53.4 FPS).
+ON CYCLISTS AND PEDESTRIANS DETECTION (test3):
+Target classes: person, bicycle.
+YOLOv9c performed best with avg confidence 0.64.
+Confidence range: 0.61–0.64.

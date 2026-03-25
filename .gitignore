@@ -1,0 +1,30 @@
+# Byte-compiled / optimised
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# YOLO model weights (downloaded automatically into models/)
+models/*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/

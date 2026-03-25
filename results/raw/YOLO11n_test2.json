@@ -1,0 +1,4259 @@
+{
+  "model_name": "YOLO11n",
+  "test_file": "test2",
+  "task": "vehicle_detection",
+  "target_classes": [
+    "car",
+    "truck",
+    "bus",
+    "motorcycle",
+    "bicycle"
+  ],
+  "total_frames": 691,
+  "metrics": {
+    "avg_detections_per_frame": 0.011577424023154847,
+    "avg_confidence": 0.49048684164881706,
+    "max_confidence": 0.6116648316383362,
+    "avg_inference_time_ms": 19.108709120115982,
+    "detections_per_second": 52.33215879283479,
+    "high_confidence_ratio": 0.0,
+    "detection_consistency": 0.9033637723955684,
+    "total_processing_time_sec": 14.274987957999997
+  },
+  "frames": [
+    {
+      "frame_index": 0,
+      "num_detections": 0,
+      "inference_time_ms": 22.739916999995557,
+      "detections": []
+    },
+    {
+      "frame_index": 1,
+      "num_detections": 0,
+      "inference_time_ms": 19.558915999994042,
+      "detections": []
+    },
+    {
+      "frame_index": 2,
+      "num_detections": 0,
+      "inference_time_ms": 19.367541999997684,
+      "detections": []
+    },
+    {
+      "frame_index": 3,
+      "num_detections": 0,
+      "inference_time_ms": 19.18508299999644,
+      "detections": []
+    },
+    {
+      "frame_index": 4,
+      "num_detections": 0,
+      "inference_time_ms": 19.155208000000812,
+      "detections": []
+    },
+    {
+      "frame_index": 5,
+      "num_detections": 0,
+      "inference_time_ms": 18.93262499999082,
+      "detections": []
+    },
+    {
+      "frame_index": 6,
+      "num_detections": 0,
+      "inference_time_ms": 19.487832999999455,
+      "detections": []
+    },
+    {
+      "frame_index": 7,
+      "num_detections": 0,
+      "inference_time_ms": 23.629791999979943,
+      "detections": []
+    },
+    {
+      "frame_index": 8,
+      "num_detections": 0,
+      "inference_time_ms": 22.173333000012008,
+      "detections": []
+    },
+    {
+      "frame_index": 9,
+      "num_detections": 0,
+      "inference_time_ms": 19.14387499999748,
+      "detections": []
+    },
+    {
+      "frame_index": 10,
+      "num_detections": 0,
+      "inference_time_ms": 19.1522910000117,
+      "detections": []
+    },
+    {
+      "frame_index": 11,
+      "num_detections": 0,
+      "inference_time_ms": 19.33912499998769,
+      "detections": []
+    },
+    {
+      "frame_index": 12,
+      "num_detections": 0,
+      "inference_time_ms": 19.222458000001552,
+      "detections": []
+    },
+    {
+      "frame_index": 13,
+      "num_detections": 0,
+      "inference_time_ms": 19.192791999984138,
+      "detections": []
+    },
+    {
+      "frame_index": 14,
+      "num_detections": 0,
+      "inference_time_ms": 19.044417000003477,
+      "detections": []
+    },
+    {
+      "frame_index": 15,
+      "num_detections": 0,
+      "inference_time_ms": 19.121665999989546,
+      "detections": []
+    },
+    {
+      "frame_index": 16,
+      "num_detections": 0,
+      "inference_time_ms": 19.183416999993597,
+      "detections": []
+    },
+    {
+      "frame_index": 17,
+      "num_detections": 0,
+      "inference_time_ms": 19.092874999984133,
+      "detections": []
+    },
+    {
+      "frame_index": 18,
+      "num_detections": 0,
+      "inference_time_ms": 19.58979200000499,
+      "detections": []
+    },
+    {
+      "frame_index": 19,
+      "num_detections": 0,
+      "inference_time_ms": 18.966250000005402,
+      "detections": []
+    },
+    {
+      "frame_index": 20,
+      "num_detections": 0,
+      "inference_time_ms": 19.176917000010008,
+      "detections": []
+    },
+    {
+      "frame_index": 21,
+      "num_detections": 0,
+      "inference_time_ms": 19.014040999991266,
+      "detections": []
+    },
+    {
+      "frame_index": 22,
+      "num_detections": 0,
+      "inference_time_ms": 19.053124999999227,
+      "detections": []
+    },
+    {
+      "frame_index": 23,
+      "num_detections": 0,
+      "inference_time_ms": 18.94733399998927,
+      "detections": []
+    },
+    {
+      "frame_index": 24,
+      "num_detections": 0,
+      "inference_time_ms": 19.124958000020342,
+      "detections": []
+    },
+    {
+      "frame_index": 25,
+      "num_detections": 0,
+      "inference_time_ms": 18.983917000014117,
+      "detections": []
+    },
+    {
+      "frame_index": 26,
+      "num_detections": 0,
+      "inference_time_ms": 19.117042000004858,
+      "detections": []
+    },
+    {
+      "frame_index": 27,
+      "num_detections": 0,
+      "inference_time_ms": 20.966332999989845,
+      "detections": []
+    },
+    {
+      "frame_index": 28,
+      "num_detections": 0,
+      "inference_time_ms": 20.568416999992678,
+      "detections": []
+    },
+    {
+      "frame_index": 29,
+      "num_detections": 0,
+      "inference_time_ms": 18.810459000007995,
+      "detections": []
+    },
+    {
+      "frame_index": 30,
+      "num_detections": 0,
+      "inference_time_ms": 19.368500000013,
+      "detections": []
+    },
+    {
+      "frame_index": 31,
+      "num_detections": 0,
+      "inference_time_ms": 19.107249999990472,
+      "detections": []
+    },
+    {
+      "frame_index": 32,
+      "num_detections": 0,
+      "inference_time_ms": 18.943542000016578,
+      "detections": []
+    },
+    {
+      "frame_index": 33,
+      "num_detections": 0,
+      "inference_time_ms": 18.884959000018853,
+      "detections": []
+    },
+    {
+      "frame_index": 34,
+      "num_detections": 0,
+      "inference_time_ms": 18.922458999981018,
+      "detections": []
+    },
+    {
+      "frame_index": 35,
+      "num_detections": 0,
+      "inference_time_ms": 19.195082999999613,
+      "detections": []
+    },
+    {
+      "frame_index": 36,
+      "num_detections": 0,
+      "inference_time_ms": 18.9397910000082,
+      "detections": []
+    },
+    {
+      "frame_index": 37,
+      "num_detections": 0,
+      "inference_time_ms": 18.94366700000205,
+      "detections": []
+    },
+    {
+      "frame_index": 38,
+      "num_detections": 0,
+      "inference_time_ms": 19.001333000005616,
+      "detections": []
+    },
+    {
+      "frame_index": 39,
+      "num_detections": 0,
+      "inference_time_ms": 19.47483399999328,
+      "detections": []
+    },
+    {
+      "frame_index": 40,
+      "num_detections": 0,
+      "inference_time_ms": 19.355958000005558,
+      "detections": []
+    },
+    {
+      "frame_index": 41,
+      "num_detections": 0,
+      "inference_time_ms": 18.966207999994822,
+      "detections": []
+    },
+    {
+      "frame_index": 42,
+      "num_detections": 0,
+      "inference_time_ms": 18.846541999977262,
+      "detections": []
+    },
+    {
+      "frame_index": 43,
+      "num_detections": 0,
+      "inference_time_ms": 18.81987499999127,
+      "detections": []
+    },
+    {
+      "frame_index": 44,
+      "num_detections": 0,
+      "inference_time_ms": 18.954249999978856,
+      "detections": []
+    },
+    {
+      "frame_index": 45,
+      "num_detections": 0,
+      "inference_time_ms": 18.898249999978134,
+      "detections": []
+    },
+    {
+      "frame_index": 46,
+      "num_detections": 0,
+      "inference_time_ms": 19.15883300000587,
+      "detections": []
+    },
+    {
+      "frame_index": 47,
+      "num_detections": 0,
+      "inference_time_ms": 18.93987500000094,
+      "detections": []
+    },
+    {
+      "frame_index": 48,
+      "num_detections": 0,
+      "inference_time_ms": 18.84945799997695,
+      "detections": []
+    },
+    {
+      "frame_index": 49,
+      "num_detections": 0,
+      "inference_time_ms": 19.11450000000059,
+      "detections": []
+    },
+    {
+      "frame_index": 50,
+      "num_detections": 0,
+      "inference_time_ms": 19.35325000002308,
+      "detections": []
+    },
+    {
+      "frame_index": 51,
+      "num_detections": 0,
+      "inference_time_ms": 19.101083000009567,
+      "detections": []
+    },
+    {
+      "frame_index": 52,
+      "num_detections": 0,
+      "inference_time_ms": 20.702874999983578,
+      "detections": []
+    },
+    {
+      "frame_index": 53,
+      "num_detections": 0,
+      "inference_time_ms": 20.95695900001715,
+      "detections": []
+    },
+    {
+      "frame_index": 54,
+      "num_detections": 0,
+      "inference_time_ms": 19.245625000024802,
+      "detections": []
+    },
+    {
+      "frame_index": 55,
+      "num_detections": 0,
+      "inference_time_ms": 19.082707999984905,
+      "detections": []
+    },
+    {
+      "frame_index": 56,
+      "num_detections": 0,
+      "inference_time_ms": 19.064208999992616,
+      "detections": []
+    },
+    {
+      "frame_index": 57,
+      "num_detections": 0,
+      "inference_time_ms": 19.04949999999417,
+      "detections": []
+    },
+    {
+      "frame_index": 58,
+      "num_detections": 0,
+      "inference_time_ms": 18.920250000007854,
+      "detections": []
+    },
+    {
+      "frame_index": 59,
+      "num_detections": 0,
+      "inference_time_ms": 18.852415999987215,
+      "detections": []
+    },
+    {
+      "frame_index": 60,
+      "num_detections": 0,
+      "inference_time_ms": 19.084583000022803,
+      "detections": []
+    },
+    {
+      "frame_index": 61,
+      "num_detections": 0,
+      "inference_time_ms": 19.17545800000653,
+      "detections": []
+    },
+    {
+      "frame_index": 62,
+      "num_detections": 0,
+      "inference_time_ms": 19.23512499999447,
+      "detections": []
+    },
+    {
+      "frame_index": 63,
+      "num_detections": 0,
+      "inference_time_ms": 18.989499999975124,
+      "detections": []
+    },
+    {
+      "frame_index": 64,
+      "num_detections": 0,
+      "inference_time_ms": 19.1044169999941,
+      "detections": []
+    },
+    {
+      "frame_index": 65,
+      "num_detections": 0,
+      "inference_time_ms": 18.934749999999667,
+      "detections": []
+    },
+    {
+      "frame_index": 66,
+      "num_detections": 0,
+      "inference_time_ms": 18.947374999982003,
+      "detections": []
+    },
+    {
+      "frame_index": 67,
+      "num_detections": 0,
+      "inference_time_ms": 18.920624999992697,
+      "detections": []
+    },
+    {
+      "frame_index": 68,
+      "num_detections": 0,
+      "inference_time_ms": 18.876041999988047,
+      "detections": []
+    },
+    {
+      "frame_index": 69,
+      "num_detections": 0,
+      "inference_time_ms": 18.896458000000393,
+      "detections": []
+    },
+    {
+      "frame_index": 70,
+      "num_detections": 0,
+      "inference_time_ms": 18.96945899997604,
+      "detections": []
+    },
+    {
+      "frame_index": 71,
+      "num_detections": 0,
+      "inference_time_ms": 18.96508299998345,
+      "detections": []
+    },
+    {
+      "frame_index": 72,
+      "num_detections": 0,
+      "inference_time_ms": 18.879542000007632,
+      "detections": []
+    },
+    {
+      "frame_index": 73,
+      "num_detections": 0,
+      "inference_time_ms": 18.946583000001738,
+      "detections": []
+    },
+    {
+      "frame_index": 74,
+      "num_detections": 0,
+      "inference_time_ms": 19.19691599999851,
+      "detections": []
+    },
+    {
+      "frame_index": 75,
+      "num_detections": 0,
+      "inference_time_ms": 19.063916999982666,
+      "detections": []
+    },
+    {
+      "frame_index": 76,
+      "num_detections": 0,
+      "inference_time_ms": 19.302917000004527,
+      "detections": []
+    },
+    {
+      "frame_index": 77,
+      "num_detections": 0,
+      "inference_time_ms": 18.90058300000419,
+      "detections": []
+    },
+    {
+      "frame_index": 78,
+      "num_detections": 0,
+      "inference_time_ms": 19.067249999977776,
+      "detections": []
+    },
+    {
+      "frame_index": 79,
+      "num_detections": 0,
+      "inference_time_ms": 19.295292000009567,
+      "detections": []
+    },
+    {
+      "frame_index": 80,
+      "num_detections": 0,
+      "inference_time_ms": 19.031917000006615,
+      "detections": []
+    },
+    {
+      "frame_index": 81,
+      "num_detections": 0,
+      "inference_time_ms": 19.241833999984692,
+      "detections": []
+    },
+    {
+      "frame_index": 82,
+      "num_detections": 0,
+      "inference_time_ms": 19.132124999998723,
+      "detections": []
+    },
+    {
+      "frame_index": 83,
+      "num_detections": 0,
+      "inference_time_ms": 18.900208000019347,
+      "detections": []
+    },
+    {
+      "frame_index": 84,
+      "num_detections": 0,
+      "inference_time_ms": 19.086499999986017,
+      "detections": []
+    },
+    {
+      "frame_index": 85,
+      "num_detections": 0,
+      "inference_time_ms": 18.997082999987924,
+      "detections": []
+    },
+    {
+      "frame_index": 86,
+      "num_detections": 0,
+      "inference_time_ms": 18.94525000000158,
+      "detections": []
+    },
+    {
+      "frame_index": 87,
+      "num_detections": 0,
+      "inference_time_ms": 19.04475000000616,
+      "detections": []
+    },
+    {
+      "frame_index": 88,
+      "num_detections": 0,
+      "inference_time_ms": 18.99304200000529,
+      "detections": []
+    },
+    {
+      "frame_index": 89,
+      "num_detections": 0,
+      "inference_time_ms": 19.003790999988723,
+      "detections": []
+    },
+    {
+      "frame_index": 90,
+      "num_detections": 0,
+      "inference_time_ms": 19.003083000001197,
+      "detections": []
+    },
+    {
+      "frame_index": 91,
+      "num_detections": 0,
+      "inference_time_ms": 19.064665999991348,
+      "detections": []
+    },
+    {
+      "frame_index": 92,
+      "num_detections": 0,
+      "inference_time_ms": 18.899374999989504,
+      "detections": []
+    },
+    {
+      "frame_index": 93,
+      "num_detections": 0,
+      "inference_time_ms": 19.234457999999677,
+      "detections": []
+    },
+    {
+      "frame_index": 94,
+      "num_detections": 0,
+      "inference_time_ms": 18.974708000001783,
+      "detections": []
+    },
+    {
+      "frame_index": 95,
+      "num_detections": 0,
+      "inference_time_ms": 19.301334000005,
+      "detections": []
+    },
+    {
+      "frame_index": 96,
+      "num_detections": 0,
+      "inference_time_ms": 19.989791000000423,
+      "detections": []
+    },
+    {
+      "frame_index": 97,
+      "num_detections": 0,
+      "inference_time_ms": 20.612125000013748,
+      "detections": []
+    },
+    {
+      "frame_index": 98,
+      "num_detections": 0,
+      "inference_time_ms": 19.91220900001167,
+      "detections": []
+    },
+    {
+      "frame_index": 99,
+      "num_detections": 0,
+      "inference_time_ms": 20.05562499999769,
+      "detections": []
+    },
+    {
+      "frame_index": 100,
+      "num_detections": 0,
+      "inference_time_ms": 21.103957999997647,
+      "detections": []
+    },
+    {
+      "frame_index": 101,
+      "num_detections": 0,
+      "inference_time_ms": 20.2683330000184,
+      "detections": []
+    },
+    {
+      "frame_index": 102,
+      "num_detections": 0,
+      "inference_time_ms": 20.427249999983133,
+      "detections": []
+    },
+    {
+      "frame_index": 103,
+      "num_detections": 0,
+      "inference_time_ms": 22.6815839999972,
+      "detections": []
+    },
+    {
+      "frame_index": 104,
+      "num_detections": 0,
+      "inference_time_ms": 19.19241600000987,
+      "detections": []
+    },
+    {
+      "frame_index": 105,
+      "num_detections": 0,
+      "inference_time_ms": 19.13687499998673,
+      "detections": []
+    },
+    {
+      "frame_index": 106,
+      "num_detections": 0,
+      "inference_time_ms": 18.996041999997715,
+      "detections": []
+    },
+    {
+      "frame_index": 107,
+      "num_detections": 0,
+      "inference_time_ms": 19.157625000019607,
+      "detections": []
+    },
+    {
+      "frame_index": 108,
+      "num_detections": 0,
+      "inference_time_ms": 19.14566700000364,
+      "detections": []
+    },
+    {
+      "frame_index": 109,
+      "num_detections": 0,
+      "inference_time_ms": 18.81579100000863,
+      "detections": []
+    },
+    {
+      "frame_index": 110,
+      "num_detections": 0,
+      "inference_time_ms": 18.91812499999901,
+      "detections": []
+    },
+    {
+      "frame_index": 111,
+      "num_detections": 0,
+      "inference_time_ms": 18.89162500000907,
+      "detections": []
+    },
+    {
+      "frame_index": 112,
+      "num_detections": 0,
+      "inference_time_ms": 19.010499999978947,
+      "detections": []
+    },
+    {
+      "frame_index": 113,
+      "num_detections": 0,
+      "inference_time_ms": 19.149541999979647,
+      "detections": []
+    },
+    {
+      "frame_index": 114,
+      "num_detections": 0,
+      "inference_time_ms": 19.71574999998893,
+      "detections": []
+    },
+    {
+      "frame_index": 115,
+      "num_detections": 0,
+      "inference_time_ms": 19.14274999998611,
+      "detections": []
+    },
+    {
+      "frame_index": 116,
+      "num_detections": 0,
+      "inference_time_ms": 18.982957999980954,
+      "detections": []
+    },
+    {
+      "frame_index": 117,
+      "num_detections": 0,
+      "inference_time_ms": 18.96029200000271,
+      "detections": []
+    },
+    {
+      "frame_index": 118,
+      "num_detections": 0,
+      "inference_time_ms": 18.948416000000634,
+      "detections": []
+    },
+    {
+      "frame_index": 119,
+      "num_detections": 0,
+      "inference_time_ms": 18.949708999997483,
+      "detections": []
+    },
+    {
+      "frame_index": 120,
+      "num_detections": 0,
+      "inference_time_ms": 19.08062499998664,
+      "detections": []
+    },
+    {
+      "frame_index": 121,
+      "num_detections": 0,
+      "inference_time_ms": 18.87633300000857,
+      "detections": []
+    },
+    {
+      "frame_index": 122,
+      "num_detections": 0,
+      "inference_time_ms": 18.93654200000583,
+      "detections": []
+    },
+    {
+      "frame_index": 123,
+      "num_detections": 0,
+      "inference_time_ms": 19.069792000010466,
+      "detections": []
+    },
+    {
+      "frame_index": 124,
+      "num_detections": 0,
+      "inference_time_ms": 19.069792000010466,
+      "detections": []
+    },
+    {
+      "frame_index": 125,
+      "num_detections": 0,
+      "inference_time_ms": 18.942124999995258,
+      "detections": []
+    },
+    {
+      "frame_index": 126,
+      "num_detections": 0,
+      "inference_time_ms": 18.87212500000146,
+      "detections": []
+    },
+    {
+      "frame_index": 127,
+      "num_detections": 0,
+      "inference_time_ms": 19.103042000011783,
+      "detections": []
+    },
+    {
+      "frame_index": 128,
+      "num_detections": 0,
+      "inference_time_ms": 19.01766700001417,
+      "detections": []
+    },
+    {
+      "frame_index": 129,
+      "num_detections": 0,
+      "inference_time_ms": 18.97329199999831,
+      "detections": []
+    },
+    {
+      "frame_index": 130,
+      "num_detections": 0,
+      "inference_time_ms": 19.11849999999049,
+      "detections": []
+    },
+    {
+      "frame_index": 131,
+      "num_detections": 0,
+      "inference_time_ms": 18.98312500000543,
+      "detections": []
+    },
+    {
+      "frame_index": 132,
+      "num_detections": 0,
+      "inference_time_ms": 19.1487079999888,
+      "detections": []
+    },
+    {
+      "frame_index": 133,
+      "num_detections": 0,
+      "inference_time_ms": 19.085541999999123,
+      "detections": []
+    },
+    {
+      "frame_index": 134,
+      "num_detections": 0,
+      "inference_time_ms": 18.940125000000307,
+      "detections": []
+    },
+    {
+      "frame_index": 135,
+      "num_detections": 0,
+      "inference_time_ms": 18.789375000011432,
+      "detections": []
+    },
+    {
+      "frame_index": 136,
+      "num_detections": 0,
+      "inference_time_ms": 19.031833000013876,
+      "detections": []
+    },
+    {
+      "frame_index": 137,
+      "num_detections": 0,
+      "inference_time_ms": 18.876457999994045,
+      "detections": []
+    },
+    {
+      "frame_index": 138,
+      "num_detections": 0,
+      "inference_time_ms": 19.05004099998564,
+      "detections": []
+    },
+    {
+      "frame_index": 139,
+      "num_detections": 0,
+      "inference_time_ms": 19.002874999983987,
+      "detections": []
+    },
+    {
+      "frame_index": 140,
+      "num_detections": 0,
+      "inference_time_ms": 19.043041000003313,
+      "detections": []
+    },
+    {
+      "frame_index": 141,
+      "num_detections": 0,
+      "inference_time_ms": 18.94904200000269,
+      "detections": []
+    },
+    {
+      "frame_index": 142,
+      "num_detections": 0,
+      "inference_time_ms": 19.213042000018277,
+      "detections": []
+    },
+    {
+      "frame_index": 143,
+      "num_detections": 0,
+      "inference_time_ms": 18.940458999992416,
+      "detections": []
+    },
+    {
+      "frame_index": 144,
+      "num_detections": 0,
+      "inference_time_ms": 18.966083999998773,
+      "detections": []
+    },
+    {
+      "frame_index": 145,
+      "num_detections": 0,
+      "inference_time_ms": 18.766917000021976,
+      "detections": []
+    },
+    {
+      "frame_index": 146,
+      "num_detections": 0,
+      "inference_time_ms": 19.02749999999287,
+      "detections": []
+    },
+    {
+      "frame_index": 147,
+      "num_detections": 0,
+      "inference_time_ms": 19.237624999988157,
+      "detections": []
+    },
+    {
+      "frame_index": 148,
+      "num_detections": 0,
+      "inference_time_ms": 18.992249999996602,
+      "detections": []
+    },
+    {
+      "frame_index": 149,
+      "num_detections": 0,
+      "inference_time_ms": 18.866666999997506,
+      "detections": []
+    },
+    {
+      "frame_index": 150,
+      "num_detections": 0,
+      "inference_time_ms": 19.29241600001319,
+      "detections": []
+    },
+    {
+      "frame_index": 151,
+      "num_detections": 0,
+      "inference_time_ms": 19.341749999995272,
+      "detections": []
+    },
+    {
+      "frame_index": 152,
+      "num_detections": 0,
+      "inference_time_ms": 19.06104100001471,
+      "detections": []
+    },
+    {
+      "frame_index": 153,
+      "num_detections": 0,
+      "inference_time_ms": 18.973791999997047,
+      "detections": []
+    },
+    {
+      "frame_index": 154,
+      "num_detections": 0,
+      "inference_time_ms": 18.92729200000076,
+      "detections": []
+    },
+    {
+      "frame_index": 155,
+      "num_detections": 0,
+      "inference_time_ms": 18.891958000011755,
+      "detections": []
+    },
+    {
+      "frame_index": 156,
+      "num_detections": 0,
+      "inference_time_ms": 18.949625000004744,
+      "detections": []
+    },
+    {
+      "frame_index": 157,
+      "num_detections": 0,
+      "inference_time_ms": 18.84949999998753,
+      "detections": []
+    },
+    {
+      "frame_index": 158,
+      "num_detections": 0,
+      "inference_time_ms": 19.19158300000845,
+      "detections": []
+    },
+    {
+      "frame_index": 159,
+      "num_detections": 0,
+      "inference_time_ms": 19.083249999994223,
+      "detections": []
+    },
+    {
+      "frame_index": 160,
+      "num_detections": 0,
+      "inference_time_ms": 19.01620799998227,
+      "detections": []
+    },
+    {
+      "frame_index": 161,
+      "num_detections": 0,
+      "inference_time_ms": 19.0406659999951,
+      "detections": []
+    },
+    {
+      "frame_index": 162,
+      "num_detections": 0,
+      "inference_time_ms": 19.046000000003005,
+      "detections": []
+    },
+    {
+      "frame_index": 163,
+      "num_detections": 0,
+      "inference_time_ms": 19.325750000007247,
+      "detections": []
+    },
+    {
+      "frame_index": 164,
+      "num_detections": 0,
+      "inference_time_ms": 19.133582999984355,
+      "detections": []
+    },
+    {
+      "frame_index": 165,
+      "num_detections": 0,
+      "inference_time_ms": 19.010083000011946,
+      "detections": []
+    },
+    {
+      "frame_index": 166,
+      "num_detections": 0,
+      "inference_time_ms": 19.05212500000175,
+      "detections": []
+    },
+    {
+      "frame_index": 167,
+      "num_detections": 0,
+      "inference_time_ms": 18.958083000001125,
+      "detections": []
+    },
+    {
+      "frame_index": 168,
+      "num_detections": 0,
+      "inference_time_ms": 18.999291000000085,
+      "detections": []
+    },
+    {
+      "frame_index": 169,
+      "num_detections": 0,
+      "inference_time_ms": 19.123083000010865,
+      "detections": []
+    },
+    {
+      "frame_index": 170,
+      "num_detections": 0,
+      "inference_time_ms": 18.948709000000008,
+      "detections": []
+    },
+    {
+      "frame_index": 171,
+      "num_detections": 0,
+      "inference_time_ms": 19.049958000010747,
+      "detections": []
+    },
+    {
+      "frame_index": 172,
+      "num_detections": 0,
+      "inference_time_ms": 19.114374999986694,
+      "detections": []
+    },
+    {
+      "frame_index": 173,
+      "num_detections": 0,
+      "inference_time_ms": 19.304833999996163,
+      "detections": []
+    },
+    {
+      "frame_index": 174,
+      "num_detections": 0,
+      "inference_time_ms": 19.1715830000021,
+      "detections": []
+    },
+    {
+      "frame_index": 175,
+      "num_detections": 0,
+      "inference_time_ms": 19.05291700001044,
+      "detections": []
+    },
+    {
+      "frame_index": 176,
+      "num_detections": 0,
+      "inference_time_ms": 19.608584000025076,
+      "detections": []
+    },
+    {
+      "frame_index": 177,
+      "num_detections": 0,
+      "inference_time_ms": 19.18204200001128,
+      "detections": []
+    },
+    {
+      "frame_index": 178,
+      "num_detections": 0,
+      "inference_time_ms": 19.211041999994904,
+      "detections": []
+    },
+    {
+      "frame_index": 179,
+      "num_detections": 0,
+      "inference_time_ms": 19.12604099999271,
+      "detections": []
+    },
+    {
+      "frame_index": 180,
+      "num_detections": 0,
+      "inference_time_ms": 18.941291999993837,
+      "detections": []
+    },
+    {
+      "frame_index": 181,
+      "num_detections": 0,
+      "inference_time_ms": 19.392000000010512,
+      "detections": []
+    },
+    {
+      "frame_index": 182,
+      "num_detections": 0,
+      "inference_time_ms": 19.21095900002001,
+      "detections": []
+    },
+    {
+      "frame_index": 183,
+      "num_detections": 0,
+      "inference_time_ms": 19.087832999986176,
+      "detections": []
+    },
+    {
+      "frame_index": 184,
+      "num_detections": 0,
+      "inference_time_ms": 18.882458999996743,
+      "detections": []
+    },
+    {
+      "frame_index": 185,
+      "num_detections": 0,
+      "inference_time_ms": 19.352541999978712,
+      "detections": []
+    },
+    {
+      "frame_index": 186,
+      "num_detections": 0,
+      "inference_time_ms": 19.280874999992648,
+      "detections": []
+    },
+    {
+      "frame_index": 187,
+      "num_detections": 0,
+      "inference_time_ms": 19.00237500001367,
+      "detections": []
+    },
+    {
+      "frame_index": 188,
+      "num_detections": 0,
+      "inference_time_ms": 18.968832999973984,
+      "detections": []
+    },
+    {
+      "frame_index": 189,
+      "num_detections": 0,
+      "inference_time_ms": 19.249709000007442,
+      "detections": []
+    },
+    {
+      "frame_index": 190,
+      "num_detections": 0,
+      "inference_time_ms": 19.12699999999745,
+      "detections": []
+    },
+    {
+      "frame_index": 191,
+      "num_detections": 0,
+      "inference_time_ms": 19.013125000014952,
+      "detections": []
+    },
+    {
+      "frame_index": 192,
+      "num_detections": 0,
+      "inference_time_ms": 18.904166999988092,
+      "detections": []
+    },
+    {
+      "frame_index": 193,
+      "num_detections": 0,
+      "inference_time_ms": 19.013416000007055,
+      "detections": []
+    },
+    {
+      "frame_index": 194,
+      "num_detections": 0,
+      "inference_time_ms": 19.118917000014335,
+      "detections": []
+    },
+    {
+      "frame_index": 195,
+      "num_detections": 0,
+      "inference_time_ms": 19.269708000024366,
+      "detections": []
+    },
+    {
+      "frame_index": 196,
+      "num_detections": 0,
+      "inference_time_ms": 18.92662500000597,
+      "detections": []
+    },
+    {
+      "frame_index": 197,
+      "num_detections": 0,
+      "inference_time_ms": 18.950916999983747,
+      "detections": []
+    },
+    {
+      "frame_index": 198,
+      "num_detections": 0,
+      "inference_time_ms": 19.10895900002174,
+      "detections": []
+    },
+    {
+      "frame_index": 199,
+      "num_detections": 0,
+      "inference_time_ms": 19.176874999999427,
+      "detections": []
+    },
+    {
+      "frame_index": 200,
+      "num_detections": 0,
+      "inference_time_ms": 19.81658299999367,
+      "detections": []
+    },
+    {
+      "frame_index": 201,
+      "num_detections": 0,
+      "inference_time_ms": 19.30791600000248,
+      "detections": []
+    },
+    {
+      "frame_index": 202,
+      "num_detections": 0,
+      "inference_time_ms": 19.236500000005208,
+      "detections": []
+    },
+    {
+      "frame_index": 203,
+      "num_detections": 0,
+      "inference_time_ms": 19.017915999995694,
+      "detections": []
+    },
+    {
+      "frame_index": 204,
+      "num_detections": 0,
+      "inference_time_ms": 19.021541000000752,
+      "detections": []
+    },
+    {
+      "frame_index": 205,
+      "num_detections": 0,
+      "inference_time_ms": 18.95575000000349,
+      "detections": []
+    },
+    {
+      "frame_index": 206,
+      "num_detections": 0,
+      "inference_time_ms": 19.202792000015734,
+      "detections": []
+    },
+    {
+      "frame_index": 207,
+      "num_detections": 0,
+      "inference_time_ms": 19.32695799999351,
+      "detections": []
+    },
+    {
+      "frame_index": 208,
+      "num_detections": 0,
+      "inference_time_ms": 18.93266699997298,
+      "detections": []
+    },
+    {
+      "frame_index": 209,
+      "num_detections": 0,
+      "inference_time_ms": 19.15237500000444,
+      "detections": []
+    },
+    {
+      "frame_index": 210,
+      "num_detections": 0,
+      "inference_time_ms": 19.237750000002052,
+      "detections": []
+    },
+    {
+      "frame_index": 211,
+      "num_detections": 0,
+      "inference_time_ms": 18.94970800000806,
+      "detections": []
+    },
+    {
+      "frame_index": 212,
+      "num_detections": 0,
+      "inference_time_ms": 19.05995800001392,
+      "detections": []
+    },
+    {
+      "frame_index": 213,
+      "num_detections": 0,
+      "inference_time_ms": 19.00916700000721,
+      "detections": []
+    },
+    {
+      "frame_index": 214,
+      "num_detections": 0,
+      "inference_time_ms": 19.127999999994927,
+      "detections": []
+    },
+    {
+      "frame_index": 215,
+      "num_detections": 0,
+      "inference_time_ms": 18.8206250000178,
+      "detections": []
+    },
+    {
+      "frame_index": 216,
+      "num_detections": 0,
+      "inference_time_ms": 19.046583000005057,
+      "detections": []
+    },
+    {
+      "frame_index": 217,
+      "num_detections": 0,
+      "inference_time_ms": 18.896750000010343,
+      "detections": []
+    },
+    {
+      "frame_index": 218,
+      "num_detections": 0,
+      "inference_time_ms": 19.23308300001736,
+      "detections": []
+    },
+    {
+      "frame_index": 219,
+      "num_detections": 0,
+      "inference_time_ms": 19.228792000006933,
+      "detections": []
+    },
+    {
+      "frame_index": 220,
+      "num_detections": 0,
+      "inference_time_ms": 19.019165999992538,
+      "detections": []
+    },
+    {
+      "frame_index": 221,
+      "num_detections": 0,
+      "inference_time_ms": 19.12187499999618,
+      "detections": []
+    },
+    {
+      "frame_index": 222,
+      "num_detections": 0,
+      "inference_time_ms": 19.215000000002647,
+      "detections": []
+    },
+    {
+      "frame_index": 223,
+      "num_detections": 0,
+      "inference_time_ms": 18.79162499997733,
+      "detections": []
+    },
+    {
+      "frame_index": 224,
+      "num_detections": 0,
+      "inference_time_ms": 19.096332999993137,
+      "detections": []
+    },
+    {
+      "frame_index": 225,
+      "num_detections": 0,
+      "inference_time_ms": 19.133041999992884,
+      "detections": []
+    },
+    {
+      "frame_index": 226,
+      "num_detections": 0,
+      "inference_time_ms": 19.107375000004367,
+      "detections": []
+    },
+    {
+      "frame_index": 227,
+      "num_detections": 0,
+      "inference_time_ms": 18.782582999989472,
+      "detections": []
+    },
+    {
+      "frame_index": 228,
+      "num_detections": 0,
+      "inference_time_ms": 18.847082999997156,
+      "detections": []
+    },
+    {
+      "frame_index": 229,
+      "num_detections": 0,
+      "inference_time_ms": 18.70533300001398,
+      "detections": []
+    },
+    {
+      "frame_index": 230,
+      "num_detections": 0,
+      "inference_time_ms": 19.590750000020307,
+      "detections": []
+    },
+    {
+      "frame_index": 231,
+      "num_detections": 0,
+      "inference_time_ms": 18.96670799999356,
+      "detections": []
+    },
+    {
+      "frame_index": 232,
+      "num_detections": 0,
+      "inference_time_ms": 19.02975000001561,
+      "detections": []
+    },
+    {
+      "frame_index": 233,
+      "num_detections": 0,
+      "inference_time_ms": 18.999709000013354,
+      "detections": []
+    },
+    {
+      "frame_index": 234,
+      "num_detections": 0,
+      "inference_time_ms": 19.059500000025764,
+      "detections": []
+    },
+    {
+      "frame_index": 235,
+      "num_detections": 0,
+      "inference_time_ms": 18.93799999999146,
+      "detections": []
+    },
+    {
+      "frame_index": 236,
+      "num_detections": 0,
+      "inference_time_ms": 19.167707999997674,
+      "detections": []
+    },
+    {
+      "frame_index": 237,
+      "num_detections": 0,
+      "inference_time_ms": 18.95037500000285,
+      "detections": []
+    },
+    {
+      "frame_index": 238,
+      "num_detections": 0,
+      "inference_time_ms": 19.049707999982957,
+      "detections": []
+    },
+    {
+      "frame_index": 239,
+      "num_detections": 0,
+      "inference_time_ms": 18.90945900001384,
+      "detections": []
+    },
+    {
+      "frame_index": 240,
+      "num_detections": 0,
+      "inference_time_ms": 19.162749999992457,
+      "detections": []
+    },
+    {
+      "frame_index": 241,
+      "num_detections": 0,
+      "inference_time_ms": 18.991666000005125,
+      "detections": []
+    },
+    {
+      "frame_index": 242,
+      "num_detections": 0,
+      "inference_time_ms": 18.80733300001225,
+      "detections": []
+    },
+    {
+      "frame_index": 243,
+      "num_detections": 0,
+      "inference_time_ms": 18.834374999983083,
+      "detections": []
+    },
+    {
+      "frame_index": 244,
+      "num_detections": 0,
+      "inference_time_ms": 18.956583999994336,
+      "detections": []
+    },
+    {
+      "frame_index": 245,
+      "num_detections": 0,
+      "inference_time_ms": 19.066124999994827,
+      "detections": []
+    },
+    {
+      "frame_index": 246,
+      "num_detections": 0,
+      "inference_time_ms": 18.841124999994463,
+      "detections": []
+    },
+    {
+      "frame_index": 247,
+      "num_detections": 0,
+      "inference_time_ms": 19.008624999997892,
+      "detections": []
+    },
+    {
+      "frame_index": 248,
+      "num_detections": 0,
+      "inference_time_ms": 19.031874999996035,
+      "detections": []
+    },
+    {
+      "frame_index": 249,
+      "num_detections": 0,
+      "inference_time_ms": 19.27100000000337,
+      "detections": []
+    },
+    {
+      "frame_index": 250,
+      "num_detections": 0,
+      "inference_time_ms": 19.222708999990346,
+      "detections": []
+    },
+    {
+      "frame_index": 251,
+      "num_detections": 0,
+      "inference_time_ms": 18.88762499999075,
+      "detections": []
+    },
+    {
+      "frame_index": 252,
+      "num_detections": 0,
+      "inference_time_ms": 19.035583000004408,
+      "detections": []
+    },
+    {
+      "frame_index": 253,
+      "num_detections": 0,
+      "inference_time_ms": 18.9743749999991,
+      "detections": []
+    },
+    {
+      "frame_index": 254,
+      "num_detections": 0,
+      "inference_time_ms": 19.13183400000662,
+      "detections": []
+    },
+    {
+      "frame_index": 255,
+      "num_detections": 0,
+      "inference_time_ms": 18.96770900000888,
+      "detections": []
+    },
+    {
+      "frame_index": 256,
+      "num_detections": 0,
+      "inference_time_ms": 19.19245799999203,
+      "detections": []
+    },
+    {
+      "frame_index": 257,
+      "num_detections": 0,
+      "inference_time_ms": 18.85891699998865,
+      "detections": []
+    },
+    {
+      "frame_index": 258,
+      "num_detections": 0,
+      "inference_time_ms": 19.301208999991104,
+      "detections": []
+    },
+    {
+      "frame_index": 259,
+      "num_detections": 0,
+      "inference_time_ms": 19.215833999993492,
+      "detections": []
+    },
+    {
+      "frame_index": 260,
+      "num_detections": 0,
+      "inference_time_ms": 19.107458000007682,
+      "detections": []
+    },
+    {
+      "frame_index": 261,
+      "num_detections": 0,
+      "inference_time_ms": 18.92516600000249,
+      "detections": []
+    },
+    {
+      "frame_index": 262,
+      "num_detections": 0,
+      "inference_time_ms": 18.959666999990077,
+      "detections": []
+    },
+    {
+      "frame_index": 263,
+      "num_detections": 0,
+      "inference_time_ms": 19.0066669999851,
+      "detections": []
+    },
+    {
+      "frame_index": 264,
+      "num_detections": 0,
+      "inference_time_ms": 19.03962500000489,
+      "detections": []
+    },
+    {
+      "frame_index": 265,
+      "num_detections": 0,
+      "inference_time_ms": 19.005292000002783,
+      "detections": []
+    },
+    {
+      "frame_index": 266,
+      "num_detections": 0,
+      "inference_time_ms": 18.971792000002097,
+      "detections": []
+    },
+    {
+      "frame_index": 267,
+      "num_detections": 0,
+      "inference_time_ms": 18.83108300000913,
+      "detections": []
+    },
+    {
+      "frame_index": 268,
+      "num_detections": 0,
+      "inference_time_ms": 19.01875000001496,
+      "detections": []
+    },
+    {
+      "frame_index": 269,
+      "num_detections": 0,
+      "inference_time_ms": 19.074750000015683,
+      "detections": []
+    },
+    {
+      "frame_index": 270,
+      "num_detections": 0,
+      "inference_time_ms": 19.287624999975606,
+      "detections": []
+    },
+    {
+      "frame_index": 271,
+      "num_detections": 0,
+      "inference_time_ms": 19.061665999998922,
+      "detections": []
+    },
+    {
+      "frame_index": 272,
+      "num_detections": 0,
+      "inference_time_ms": 18.983875000003536,
+      "detections": []
+    },
+    {
+      "frame_index": 273,
+      "num_detections": 0,
+      "inference_time_ms": 19.291833000011138,
+      "detections": []
+    },
+    {
+      "frame_index": 274,
+      "num_detections": 0,
+      "inference_time_ms": 19.260166999998773,
+      "detections": []
+    },
+    {
+      "frame_index": 275,
+      "num_detections": 0,
+      "inference_time_ms": 19.09383299999945,
+      "detections": []
+    },
+    {
+      "frame_index": 276,
+      "num_detections": 0,
+      "inference_time_ms": 19.053624999997965,
+      "detections": []
+    },
+    {
+      "frame_index": 277,
+      "num_detections": 0,
+      "inference_time_ms": 19.039542000001575,
+      "detections": []
+    },
+    {
+      "frame_index": 278,
+      "num_detections": 0,
+      "inference_time_ms": 18.977166000013312,
+      "detections": []
+    },
+    {
+      "frame_index": 279,
+      "num_detections": 0,
+      "inference_time_ms": 19.350916999997025,
+      "detections": []
+    },
+    {
+      "frame_index": 280,
+      "num_detections": 0,
+      "inference_time_ms": 19.177917000007483,
+      "detections": []
+    },
+    {
+      "frame_index": 281,
+      "num_detections": 0,
+      "inference_time_ms": 18.99783299998603,
+      "detections": []
+    },
+    {
+      "frame_index": 282,
+      "num_detections": 0,
+      "inference_time_ms": 18.97350000001552,
+      "detections": []
+    },
+    {
+      "frame_index": 283,
+      "num_detections": 0,
+      "inference_time_ms": 18.89162500000907,
+      "detections": []
+    },
+    {
+      "frame_index": 284,
+      "num_detections": 0,
+      "inference_time_ms": 19.20187499999315,
+      "detections": []
+    },
+    {
+      "frame_index": 285,
+      "num_detections": 0,
+      "inference_time_ms": 18.958541000017703,
+      "detections": []
+    },
+    {
+      "frame_index": 286,
+      "num_detections": 0,
+      "inference_time_ms": 18.990124999987756,
+      "detections": []
+    },
+    {
+      "frame_index": 287,
+      "num_detections": 0,
+      "inference_time_ms": 18.91133300000547,
+      "detections": []
+    },
+    {
+      "frame_index": 288,
+      "num_detections": 0,
+      "inference_time_ms": 19.289582999988397,
+      "detections": []
+    },
+    {
+      "frame_index": 289,
+      "num_detections": 0,
+      "inference_time_ms": 21.951540999992858,
+      "detections": []
+    },
+    {
+      "frame_index": 290,
+      "num_detections": 0,
+      "inference_time_ms": 19.13658299997678,
+      "detections": []
+    },
+    {
+      "frame_index": 291,
+      "num_detections": 0,
+      "inference_time_ms": 18.867291999981717,
+      "detections": []
+    },
+    {
+      "frame_index": 292,
+      "num_detections": 0,
+      "inference_time_ms": 18.891750000022967,
+      "detections": []
+    },
+    {
+      "frame_index": 293,
+      "num_detections": 0,
+      "inference_time_ms": 18.962666999982503,
+      "detections": []
+    },
+    {
+      "frame_index": 294,
+      "num_detections": 0,
+      "inference_time_ms": 19.10687500000563,
+      "detections": []
+    },
+    {
+      "frame_index": 295,
+      "num_detections": 0,
+      "inference_time_ms": 20.901374999994005,
+      "detections": []
+    },
+    {
+      "frame_index": 296,
+      "num_detections": 0,
+      "inference_time_ms": 20.674167000009902,
+      "detections": []
+    },
+    {
+      "frame_index": 297,
+      "num_detections": 0,
+      "inference_time_ms": 19.448334000003342,
+      "detections": []
+    },
+    {
+      "frame_index": 298,
+      "num_detections": 0,
+      "inference_time_ms": 19.028749999989714,
+      "detections": []
+    },
+    {
+      "frame_index": 299,
+      "num_detections": 0,
+      "inference_time_ms": 18.91362500001037,
+      "detections": []
+    },
+    {
+      "frame_index": 300,
+      "num_detections": 0,
+      "inference_time_ms": 20.021624999998267,
+      "detections": []
+    },
+    {
+      "frame_index": 301,
+      "num_detections": 0,
+      "inference_time_ms": 19.061625000006188,
+      "detections": []
+    },
+    {
+      "frame_index": 302,
+      "num_detections": 0,
+      "inference_time_ms": 19.223707999998396,
+      "detections": []
+    },
+    {
+      "frame_index": 303,
+      "num_detections": 0,
+      "inference_time_ms": 19.23733300000663,
+      "detections": []
+    },
+    {
+      "frame_index": 304,
+      "num_detections": 0,
+      "inference_time_ms": 19.03433399999699,
+      "detections": []
+    },
+    {
+      "frame_index": 305,
+      "num_detections": 0,
+      "inference_time_ms": 19.17404100001363,
+      "detections": []
+    },
+    {
+      "frame_index": 306,
+      "num_detections": 0,
+      "inference_time_ms": 18.877916999997524,
+      "detections": []
+    },
+    {
+      "frame_index": 307,
+      "num_detections": 0,
+      "inference_time_ms": 19.012042000014162,
+      "detections": []
+    },
+    {
+      "frame_index": 308,
+      "num_detections": 0,
+      "inference_time_ms": 18.977667000001475,
+      "detections": []
+    },
+    {
+      "frame_index": 309,
+      "num_detections": 0,
+      "inference_time_ms": 19.02837499997645,
+      "detections": []
+    },
+    {
+      "frame_index": 310,
+      "num_detections": 0,
+      "inference_time_ms": 18.756416999991643,
+      "detections": []
+    },
+    {
+      "frame_index": 311,
+      "num_detections": 0,
+      "inference_time_ms": 19.194375000012087,
+      "detections": []
+    },
+    {
+      "frame_index": 312,
+      "num_detections": 0,
+      "inference_time_ms": 19.316916999997602,
+      "detections": []
+    },
+    {
+      "frame_index": 313,
+      "num_detections": 0,
+      "inference_time_ms": 19.034457999993037,
+      "detections": []
+    },
+    {
+      "frame_index": 314,
+      "num_detections": 0,
+      "inference_time_ms": 18.865542000014557,
+      "detections": []
+    },
+    {
+      "frame_index": 315,
+      "num_detections": 0,
+      "inference_time_ms": 18.87012500000651,
+      "detections": []
+    },
+    {
+      "frame_index": 316,
+      "num_detections": 0,
+      "inference_time_ms": 18.868333000000348,
+      "detections": []
+    },
+    {
+      "frame_index": 317,
+      "num_detections": 0,
+      "inference_time_ms": 18.932083000009925,
+      "detections": []
+    },
+    {
+      "frame_index": 318,
+      "num_detections": 0,
+      "inference_time_ms": 19.059625000011238,
+      "detections": []
+    },
+    {
+      "frame_index": 319,
+      "num_detections": 0,
+      "inference_time_ms": 19.234208999989733,
+      "detections": []
+    },
+    {
+      "frame_index": 320,
+      "num_detections": 0,
+      "inference_time_ms": 18.917499999986376,
+      "detections": []
+    },
+    {
+      "frame_index": 321,
+      "num_detections": 0,
+      "inference_time_ms": 19.2105829999889,
+      "detections": []
+    },
+    {
+      "frame_index": 322,
+      "num_detections": 0,
+      "inference_time_ms": 18.98754100000133,
+      "detections": []
+    },
+    {
+      "frame_index": 323,
+      "num_detections": 0,
+      "inference_time_ms": 18.84812500000521,
+      "detections": []
+    },
+    {
+      "frame_index": 324,
+      "num_detections": 0,
+      "inference_time_ms": 19.009791000001997,
+      "detections": []
+    },
+    {
+      "frame_index": 325,
+      "num_detections": 0,
+      "inference_time_ms": 18.78820799998948,
+      "detections": []
+    },
+    {
+      "frame_index": 326,
+      "num_detections": 0,
+      "inference_time_ms": 19.038582999996834,
+      "detections": []
+    },
+    {
+      "frame_index": 327,
+      "num_detections": 0,
+      "inference_time_ms": 19.19733400001178,
+      "detections": []
+    },
+    {
+      "frame_index": 328,
+      "num_detections": 0,
+      "inference_time_ms": 18.94904200000269,
+      "detections": []
+    },
+    {
+      "frame_index": 329,
+      "num_detections": 0,
+      "inference_time_ms": 18.75799999999117,
+      "detections": []
+    },
+    {
+      "frame_index": 330,
+      "num_detections": 0,
+      "inference_time_ms": 19.01983299998733,
+      "detections": []
+    },
+    {
+      "frame_index": 331,
+      "num_detections": 0,
+      "inference_time_ms": 18.87283300001741,
+      "detections": []
+    },
+    {
+      "frame_index": 332,
+      "num_detections": 0,
+      "inference_time_ms": 18.91329099998984,
+      "detections": []
+    },
+    {
+      "frame_index": 333,
+      "num_detections": 0,
+      "inference_time_ms": 19.1379999999981,
+      "detections": []
+    },
+    {
+      "frame_index": 334,
+      "num_detections": 0,
+      "inference_time_ms": 19.00887499999726,
+      "detections": []
+    },
+    {
+      "frame_index": 335,
+      "num_detections": 0,
+      "inference_time_ms": 18.769125000005715,
+      "detections": []
+    },
+    {
+      "frame_index": 336,
+      "num_detections": 0,
+      "inference_time_ms": 19.051666999985173,
+      "detections": []
+    },
+    {
+      "frame_index": 337,
+      "num_detections": 0,
+      "inference_time_ms": 18.986791999992647,
+      "detections": []
+    },
+    {
+      "frame_index": 338,
+      "num_detections": 0,
+      "inference_time_ms": 19.728374999999687,
+      "detections": []
+    },
+    {
+      "frame_index": 339,
+      "num_detections": 0,
+      "inference_time_ms": 21.265207999988434,
+      "detections": []
+    },
+    {
+      "frame_index": 340,
+      "num_detections": 0,
+      "inference_time_ms": 21.290792000002057,
+      "detections": []
+    },
+    {
+      "frame_index": 341,
+      "num_detections": 0,
+      "inference_time_ms": 19.04500000000553,
+      "detections": []
+    },
+    {
+      "frame_index": 342,
+      "num_detections": 0,
+      "inference_time_ms": 19.20770800001037,
+      "detections": []
+    },
+    {
+      "frame_index": 343,
+      "num_detections": 0,
+      "inference_time_ms": 18.95670900000823,
+      "detections": []
+    },
+    {
+      "frame_index": 344,
+      "num_detections": 0,
+      "inference_time_ms": 18.76429199998597,
+      "detections": []
+    },
+    {
+      "frame_index": 345,
+      "num_detections": 0,
+      "inference_time_ms": 19.173999999992475,
+      "detections": []
+    },
+    {
+      "frame_index": 346,
+      "num_detections": 0,
+      "inference_time_ms": 19.170458999980156,
+      "detections": []
+    },
+    {
+      "frame_index": 347,
+      "num_detections": 0,
+      "inference_time_ms": 18.991166999995812,
+      "detections": []
+    },
+    {
+      "frame_index": 348,
+      "num_detections": 0,
+      "inference_time_ms": 19.104333999990786,
+      "detections": []
+    },
+    {
+      "frame_index": 349,
+      "num_detections": 0,
+      "inference_time_ms": 19.05887500001313,
+      "detections": []
+    },
+    {
+      "frame_index": 350,
+      "num_detections": 0,
+      "inference_time_ms": 19.102208000020937,
+      "detections": []
+    },
+    {
+      "frame_index": 351,
+      "num_detections": 0,
+      "inference_time_ms": 19.036333000002514,
+      "detections": []
+    },
+    {
+      "frame_index": 352,
+      "num_detections": 0,
+      "inference_time_ms": 18.923042000011492,
+      "detections": []
+    },
+    {
+      "frame_index": 353,
+      "num_detections": 0,
+      "inference_time_ms": 19.009291999992683,
+      "detections": []
+    },
+    {
+      "frame_index": 354,
+      "num_detections": 0,
+      "inference_time_ms": 18.713708000007045,
+      "detections": []
+    },
+    {
+      "frame_index": 355,
+      "num_detections": 0,
+      "inference_time_ms": 18.960957999979655,
+      "detections": []
+    },
+    {
+      "frame_index": 356,
+      "num_detections": 0,
+      "inference_time_ms": 18.967375000016773,
+      "detections": []
+    },
+    {
+      "frame_index": 357,
+      "num_detections": 0,
+      "inference_time_ms": 19.17745800000148,
+      "detections": []
+    },
+    {
+      "frame_index": 358,
+      "num_detections": 0,
+      "inference_time_ms": 18.715334000006578,
+      "detections": []
+    },
+    {
+      "frame_index": 359,
+      "num_detections": 0,
+      "inference_time_ms": 18.76924999999119,
+      "detections": []
+    },
+    {
+      "frame_index": 360,
+      "num_detections": 0,
+      "inference_time_ms": 18.903708999999935,
+      "detections": []
+    },
+    {
+      "frame_index": 361,
+      "num_detections": 0,
+      "inference_time_ms": 18.93395799999098,
+      "detections": []
+    },
+    {
+      "frame_index": 362,
+      "num_detections": 0,
+      "inference_time_ms": 18.698957999987442,
+      "detections": []
+    },
+    {
+      "frame_index": 363,
+      "num_detections": 0,
+      "inference_time_ms": 18.80041699999424,
+      "detections": []
+    },
+    {
+      "frame_index": 364,
+      "num_detections": 0,
+      "inference_time_ms": 18.675375000015038,
+      "detections": []
+    },
+    {
+      "frame_index": 365,
+      "num_detections": 0,
+      "inference_time_ms": 18.984791999997697,
+      "detections": []
+    },
+    {
+      "frame_index": 366,
+      "num_detections": 0,
+      "inference_time_ms": 19.056082999981072,
+      "detections": []
+    },
+    {
+      "frame_index": 367,
+      "num_detections": 0,
+      "inference_time_ms": 18.85575000000017,
+      "detections": []
+    },
+    {
+      "frame_index": 368,
+      "num_detections": 0,
+      "inference_time_ms": 18.78970900000354,
+      "detections": []
+    },
+    {
+      "frame_index": 369,
+      "num_detections": 0,
+      "inference_time_ms": 18.71070800001462,
+      "detections": []
+    },
+    {
+      "frame_index": 370,
+      "num_detections": 0,
+      "inference_time_ms": 19.226584000023195,
+      "detections": []
+    },
+    {
+      "frame_index": 371,
+      "num_detections": 0,
+      "inference_time_ms": 18.938832999992883,
+      "detections": []
+    },
+    {
+      "frame_index": 372,
+      "num_detections": 0,
+      "inference_time_ms": 18.930707999999186,
+      "detections": []
+    },
+    {
+      "frame_index": 373,
+      "num_detections": 0,
+      "inference_time_ms": 18.913874999981317,
+      "detections": []
+    },
+    {
+      "frame_index": 374,
+      "num_detections": 0,
+      "inference_time_ms": 18.85795800001233,
+      "detections": []
+    },
+    {
+      "frame_index": 375,
+      "num_detections": 0,
+      "inference_time_ms": 18.931250000008504,
+      "detections": []
+    },
+    {
+      "frame_index": 376,
+      "num_detections": 0,
+      "inference_time_ms": 19.21200000001022,
+      "detections": []
+    },
+    {
+      "frame_index": 377,
+      "num_detections": 0,
+      "inference_time_ms": 19.098917000007987,
+      "detections": []
+    },
+    {
+      "frame_index": 378,
+      "num_detections": 0,
+      "inference_time_ms": 18.833250000000135,
+      "detections": []
+    },
+    {
+      "frame_index": 379,
+      "num_detections": 0,
+      "inference_time_ms": 18.771458999992774,
+      "detections": []
+    },
+    {
+      "frame_index": 380,
+      "num_detections": 0,
+      "inference_time_ms": 18.984583000019484,
+      "detections": []
+    },
+    {
+      "frame_index": 381,
+      "num_detections": 0,
+      "inference_time_ms": 18.97658299998284,
+      "detections": []
+    },
+    {
+      "frame_index": 382,
+      "num_detections": 0,
+      "inference_time_ms": 19.008249999984628,
+      "detections": []
+    },
+    {
+      "frame_index": 383,
+      "num_detections": 0,
+      "inference_time_ms": 18.81274999999505,
+      "detections": []
+    },
+    {
+      "frame_index": 384,
+      "num_detections": 0,
+      "inference_time_ms": 19.031250000011823,
+      "detections": []
+    },
+    {
+      "frame_index": 385,
+      "num_detections": 0,
+      "inference_time_ms": 18.804333000019824,
+      "detections": []
+    },
+    {
+      "frame_index": 386,
+      "num_detections": 0,
+      "inference_time_ms": 19.450333000008868,
+      "detections": []
+    },
+    {
+      "frame_index": 387,
+      "num_detections": 0,
+      "inference_time_ms": 19.216166999996176,
+      "detections": []
+    },
+    {
+      "frame_index": 388,
+      "num_detections": 0,
+      "inference_time_ms": 18.901459000005616,
+      "detections": []
+    },
+    {
+      "frame_index": 389,
+      "num_detections": 0,
+      "inference_time_ms": 19.173875000007,
+      "detections": []
+    },
+    {
+      "frame_index": 390,
+      "num_detections": 0,
+      "inference_time_ms": 19.17008300000589,
+      "detections": []
+    },
+    {
+      "frame_index": 391,
+      "num_detections": 0,
+      "inference_time_ms": 18.79295800000591,
+      "detections": []
+    },
+    {
+      "frame_index": 392,
+      "num_detections": 0,
+      "inference_time_ms": 19.237875000015947,
+      "detections": []
+    },
+    {
+      "frame_index": 393,
+      "num_detections": 0,
+      "inference_time_ms": 18.836749999991298,
+      "detections": []
+    },
+    {
+      "frame_index": 394,
+      "num_detections": 0,
+      "inference_time_ms": 19.335791000003155,
+      "detections": []
+    },
+    {
+      "frame_index": 395,
+      "num_detections": 0,
+      "inference_time_ms": 19.002207999989196,
+      "detections": []
+    },
+    {
+      "frame_index": 396,
+      "num_detections": 0,
+      "inference_time_ms": 19.182999999998174,
+      "detections": []
+    },
+    {
+      "frame_index": 397,
+      "num_detections": 0,
+      "inference_time_ms": 19.15237500000444,
+      "detections": []
+    },
+    {
+      "frame_index": 398,
+      "num_detections": 0,
+      "inference_time_ms": 19.01870800000438,
+      "detections": []
+    },
+    {
+      "frame_index": 399,
+      "num_detections": 0,
+      "inference_time_ms": 18.985832999987906,
+      "detections": []
+    },
+    {
+      "frame_index": 400,
+      "num_detections": 0,
+      "inference_time_ms": 19.65820899999926,
+      "detections": []
+    },
+    {
+      "frame_index": 401,
+      "num_detections": 0,
+      "inference_time_ms": 18.92749999998955,
+      "detections": []
+    },
+    {
+      "frame_index": 402,
+      "num_detections": 0,
+      "inference_time_ms": 19.06979099999262,
+      "detections": []
+    },
+    {
+      "frame_index": 403,
+      "num_detections": 0,
+      "inference_time_ms": 18.76162499999623,
+      "detections": []
+    },
+    {
+      "frame_index": 404,
+      "num_detections": 0,
+      "inference_time_ms": 18.91849999998385,
+      "detections": []
+    },
+    {
+      "frame_index": 405,
+      "num_detections": 0,
+      "inference_time_ms": 18.880708000011737,
+      "detections": []
+    },
+    {
+      "frame_index": 406,
+      "num_detections": 0,
+      "inference_time_ms": 19.038417000018626,
+      "detections": []
+    },
+    {
+      "frame_index": 407,
+      "num_detections": 0,
+      "inference_time_ms": 19.022291999988283,
+      "detections": []
+    },
+    {
+      "frame_index": 408,
+      "num_detections": 0,
+      "inference_time_ms": 18.77354200001946,
+      "detections": []
+    },
+    {
+      "frame_index": 409,
+      "num_detections": 0,
+      "inference_time_ms": 18.86137500000018,
+      "detections": []
+    },
+    {
+      "frame_index": 410,
+      "num_detections": 0,
+      "inference_time_ms": 18.81025000000136,
+      "detections": []
+    },
+    {
+      "frame_index": 411,
+      "num_detections": 0,
+      "inference_time_ms": 18.926292000003286,
+      "detections": []
+    },
+    {
+      "frame_index": 412,
+      "num_detections": 0,
+      "inference_time_ms": 18.747917000013103,
+      "detections": []
+    },
+    {
+      "frame_index": 413,
+      "num_detections": 0,
+      "inference_time_ms": 18.945083000005525,
+      "detections": []
+    },
+    {
+      "frame_index": 414,
+      "num_detections": 0,
+      "inference_time_ms": 18.935542000008354,
+      "detections": []
+    },
+    {
+      "frame_index": 415,
+      "num_detections": 0,
+      "inference_time_ms": 18.982125000007954,
+      "detections": []
+    },
+    {
+      "frame_index": 416,
+      "num_detections": 0,
+      "inference_time_ms": 19.10887500000058,
+      "detections": []
+    },
+    {
+      "frame_index": 417,
+      "num_detections": 0,
+      "inference_time_ms": 18.73937499999556,
+      "detections": []
+    },
+    {
+      "frame_index": 418,
+      "num_detections": 0,
+      "inference_time_ms": 18.90191600000435,
+      "detections": []
+    },
+    {
+      "frame_index": 419,
+      "num_detections": 0,
+      "inference_time_ms": 18.912707999987788,
+      "detections": []
+    },
+    {
+      "frame_index": 420,
+      "num_detections": 0,
+      "inference_time_ms": 18.998584000001983,
+      "detections": []
+    },
+    {
+      "frame_index": 421,
+      "num_detections": 0,
+      "inference_time_ms": 18.86737499998503,
+      "detections": []
+    },
+    {
+      "frame_index": 422,
+      "num_detections": 0,
+      "inference_time_ms": 18.771540999978242,
+      "detections": []
+    },
+    {
+      "frame_index": 423,
+      "num_detections": 0,
+      "inference_time_ms": 18.866416999998137,
+      "detections": []
+    },
+    {
+      "frame_index": 424,
+      "num_detections": 0,
+      "inference_time_ms": 19.14229199999795,
+      "detections": []
+    },
+    {
+      "frame_index": 425,
+      "num_detections": 0,
+      "inference_time_ms": 19.375999999994065,
+      "detections": []
+    },
+    {
+      "frame_index": 426,
+      "num_detections": 0,
+      "inference_time_ms": 18.99633300001824,
+      "detections": []
+    },
+    {
+      "frame_index": 427,
+      "num_detections": 0,
+      "inference_time_ms": 18.82237499998496,
+      "detections": []
+    },
+    {
+      "frame_index": 428,
+      "num_detections": 0,
+      "inference_time_ms": 19.050707999980432,
+      "detections": []
+    },
+    {
+      "frame_index": 429,
+      "num_detections": 0,
+      "inference_time_ms": 18.96291600002087,
+      "detections": []
+    },
+    {
+      "frame_index": 430,
+      "num_detections": 0,
+      "inference_time_ms": 18.95070900002338,
+      "detections": []
+    },
+    {
+      "frame_index": 431,
+      "num_detections": 0,
+      "inference_time_ms": 18.940374999999676,
+      "detections": []
+    },
+    {
+      "frame_index": 432,
+      "num_detections": 0,
+      "inference_time_ms": 18.88429199999564,
+      "detections": []
+    },
+    {
+      "frame_index": 433,
+      "num_detections": 0,
+      "inference_time_ms": 18.97099999999341,
+      "detections": []
+    },
+    {
+      "frame_index": 434,
+      "num_detections": 1,
+      "inference_time_ms": 19.151999999991176,
+      "detections": [
+        {
+          "class_name": "car",
+          "confidence": 0.49182426929473877,
+          "bbox": [
+            139,
+            498,
+            211,
+            544
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 435,
+      "num_detections": 1,
+      "inference_time_ms": 19.26583300001994,
+      "detections": [
+        {
+          "class_name": "car",
+          "confidence": 0.5310492515563965,
+          "bbox": [
+            143,
+            498,
+            205,
+            543
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 436,
+      "num_detections": 0,
+      "inference_time_ms": 19.14874999999938,
+      "detections": []
+    },
+    {
+      "frame_index": 437,
+      "num_detections": 0,
+      "inference_time_ms": 18.67858299999625,
+      "detections": []
+    },
+    {
+      "frame_index": 438,
+      "num_detections": 0,
+      "inference_time_ms": 19.124750000003132,
+      "detections": []
+    },
+    {
+      "frame_index": 439,
+      "num_detections": 0,
+      "inference_time_ms": 19.13320900001736,
+      "detections": []
+    },
+    {
+      "frame_index": 440,
+      "num_detections": 1,
+      "inference_time_ms": 19.160957999986294,
+      "detections": [
+        {
+          "class_name": "car",
+          "confidence": 0.408382773399353,
+          "bbox": [
+            88,
+            495,
+            190,
+            555
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 441,
+      "num_detections": 1,
+      "inference_time_ms": 19.007291999997733,
+      "detections": [
+        {
+          "class_name": "car",
+          "confidence": 0.6116648316383362,
+          "bbox": [
+            79,
+            496,
+            188,
+            559
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 442,
+      "num_detections": 1,
+      "inference_time_ms": 19.407082999975955,
+      "detections": [
+        {
+          "class_name": "car",
+          "confidence": 0.4356619417667389,
+          "bbox": [
+            91,
+            496,
+            185,
+            558
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 443,
+      "num_detections": 0,
+      "inference_time_ms": 19.351124999985814,
+      "detections": []
+    },
+    {
+      "frame_index": 444,
+      "num_detections": 0,
+      "inference_time_ms": 19.330749999994623,
+      "detections": []
+    },
+    {
+      "frame_index": 445,
+      "num_detections": 0,
+      "inference_time_ms": 19.052500000015016,
+      "detections": []
+    },
+    {
+      "frame_index": 446,
+      "num_detections": 0,
+      "inference_time_ms": 18.849541000008685,
+      "detections": []
+    },
+    {
+      "frame_index": 447,
+      "num_detections": 0,
+      "inference_time_ms": 19.11225000000627,
+      "detections": []
+    },
+    {
+      "frame_index": 448,
+      "num_detections": 0,
+      "inference_time_ms": 19.231667000013886,
+      "detections": []
+    },
+    {
+      "frame_index": 449,
+      "num_detections": 0,
+      "inference_time_ms": 19.0018340000222,
+      "detections": []
+    },
+    {
+      "frame_index": 450,
+      "num_detections": 0,
+      "inference_time_ms": 19.01441600000453,
+      "detections": []
+    },
+    {
+      "frame_index": 451,
+      "num_detections": 0,
+      "inference_time_ms": 19.25991600000998,
+      "detections": []
+    },
+    {
+      "frame_index": 452,
+      "num_detections": 0,
+      "inference_time_ms": 18.926084000014498,
+      "detections": []
+    },
+    {
+      "frame_index": 453,
+      "num_detections": 0,
+      "inference_time_ms": 19.204166000008627,
+      "detections": []
+    },
+    {
+      "frame_index": 454,
+      "num_detections": 0,
+      "inference_time_ms": 19.172999999995,
+      "detections": []
+    },
+    {
+      "frame_index": 455,
+      "num_detections": 0,
+      "inference_time_ms": 18.970249999995303,
+      "detections": []
+    },
+    {
+      "frame_index": 456,
+      "num_detections": 0,
+      "inference_time_ms": 18.78137500000321,
+      "detections": []
+    },
+    {
+      "frame_index": 457,
+      "num_detections": 0,
+      "inference_time_ms": 19.024542000011024,
+      "detections": []
+    },
+    {
+      "frame_index": 458,
+      "num_detections": 0,
+      "inference_time_ms": 19.386416000003237,
+      "detections": []
+    },
+    {
+      "frame_index": 459,
+      "num_detections": 0,
+      "inference_time_ms": 19.022624999990967,
+      "detections": []
+    },
+    {
+      "frame_index": 460,
+      "num_detections": 0,
+      "inference_time_ms": 18.835458000012295,
+      "detections": []
+    },
+    {
+      "frame_index": 461,
+      "num_detections": 0,
+      "inference_time_ms": 18.945500000000948,
+      "detections": []
+    },
+    {
+      "frame_index": 462,
+      "num_detections": 0,
+      "inference_time_ms": 19.053332999988015,
+      "detections": []
+    },
+    {
+      "frame_index": 463,
+      "num_detections": 0,
+      "inference_time_ms": 18.90358400001446,
+      "detections": []
+    },
+    {
+      "frame_index": 464,
+      "num_detections": 0,
+      "inference_time_ms": 18.790458000012222,
+      "detections": []
+    },
+    {
+      "frame_index": 465,
+      "num_detections": 0,
+      "inference_time_ms": 19.05099999999038,
+      "detections": []
+    },
+    {
+      "frame_index": 466,
+      "num_detections": 0,
+      "inference_time_ms": 18.872958000002882,
+      "detections": []
+    },
+    {
+      "frame_index": 467,
+      "num_detections": 0,
+      "inference_time_ms": 19.05708300000697,
+      "detections": []
+    },
+    {
+      "frame_index": 468,
+      "num_detections": 0,
+      "inference_time_ms": 19.076582999986158,
+      "detections": []
+    },
+    {
+      "frame_index": 469,
+      "num_detections": 0,
+      "inference_time_ms": 18.987957999996752,
+      "detections": []
+    },
+    {
+      "frame_index": 470,
+      "num_detections": 0,
+      "inference_time_ms": 19.135208999983888,
+      "detections": []
+    },
+    {
+      "frame_index": 471,
+      "num_detections": 0,
+      "inference_time_ms": 18.95579199998565,
+      "detections": []
+    },
+    {
+      "frame_index": 472,
+      "num_detections": 0,
+      "inference_time_ms": 18.99591699998382,
+      "detections": []
+    },
+    {
+      "frame_index": 473,
+      "num_detections": 0,
+      "inference_time_ms": 18.875874999991993,
+      "detections": []
+    },
+    {
+      "frame_index": 474,
+      "num_detections": 0,
+      "inference_time_ms": 19.109708000002,
+      "detections": []
+    },
+    {
+      "frame_index": 475,
+      "num_detections": 0,
+      "inference_time_ms": 18.874499999981253,
+      "detections": []
+    },
+    {
+      "frame_index": 476,
+      "num_detections": 0,
+      "inference_time_ms": 18.999083000011296,
+      "detections": []
+    },
+    {
+      "frame_index": 477,
+      "num_detections": 0,
+      "inference_time_ms": 18.87237500000083,
+      "detections": []
+    },
+    {
+      "frame_index": 478,
+      "num_detections": 0,
+      "inference_time_ms": 19.08108300000322,
+      "detections": []
+    },
+    {
+      "frame_index": 479,
+      "num_detections": 0,
+      "inference_time_ms": 19.069124999987253,
+      "detections": []
+    },
+    {
+      "frame_index": 480,
+      "num_detections": 0,
+      "inference_time_ms": 18.944333999996843,
+      "detections": []
+    },
+    {
+      "frame_index": 481,
+      "num_detections": 0,
+      "inference_time_ms": 18.957000000000335,
+      "detections": []
+    },
+    {
+      "frame_index": 482,
+      "num_detections": 0,
+      "inference_time_ms": 19.15345800000523,
+      "detections": []
+    },
+    {
+      "frame_index": 483,
+      "num_detections": 0,
+      "inference_time_ms": 18.990625000014916,
+      "detections": []
+    },
+    {
+      "frame_index": 484,
+      "num_detections": 0,
+      "inference_time_ms": 19.144334000003482,
+      "detections": []
+    },
+    {
+      "frame_index": 485,
+      "num_detections": 0,
+      "inference_time_ms": 18.907084000005625,
+      "detections": []
+    },
+    {
+      "frame_index": 486,
+      "num_detections": 0,
+      "inference_time_ms": 19.082584000017278,
+      "detections": []
+    },
+    {
+      "frame_index": 487,
+      "num_detections": 0,
+      "inference_time_ms": 19.022750000004862,
+      "detections": []
+    },
+    {
+      "frame_index": 488,
+      "num_detections": 0,
+      "inference_time_ms": 19.001916999997093,
+      "detections": []
+    },
+    {
+      "frame_index": 489,
+      "num_detections": 0,
+      "inference_time_ms": 18.95154199999638,
+      "detections": []
+    },
+    {
+      "frame_index": 490,
+      "num_detections": 0,
+      "inference_time_ms": 19.221291000008023,
+      "detections": []
+    },
+    {
+      "frame_index": 491,
+      "num_detections": 0,
+      "inference_time_ms": 19.145708000024797,
+      "detections": []
+    },
+    {
+      "frame_index": 492,
+      "num_detections": 0,
+      "inference_time_ms": 19.059874999982185,
+      "detections": []
+    },
+    {
+      "frame_index": 493,
+      "num_detections": 0,
+      "inference_time_ms": 19.022083999999495,
+      "detections": []
+    },
+    {
+      "frame_index": 494,
+      "num_detections": 0,
+      "inference_time_ms": 19.239749999997002,
+      "detections": []
+    },
+    {
+      "frame_index": 495,
+      "num_detections": 0,
+      "inference_time_ms": 18.9936669999895,
+      "detections": []
+    },
+    {
+      "frame_index": 496,
+      "num_detections": 0,
+      "inference_time_ms": 19.02583400001845,
+      "detections": []
+    },
+    {
+      "frame_index": 497,
+      "num_detections": 0,
+      "inference_time_ms": 19.01725000001875,
+      "detections": []
+    },
+    {
+      "frame_index": 498,
+      "num_detections": 0,
+      "inference_time_ms": 19.168041000000358,
+      "detections": []
+    },
+    {
+      "frame_index": 499,
+      "num_detections": 0,
+      "inference_time_ms": 19.071749999994836,
+      "detections": []
+    },
+    {
+      "frame_index": 500,
+      "num_detections": 1,
+      "inference_time_ms": 20.028666999991174,
+      "detections": [
+        {
+          "class_name": "car",
+          "confidence": 0.43444985151290894,
+          "bbox": [
+            50,
+            597,
+            711,
+            959
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 501,
+      "num_detections": 1,
+      "inference_time_ms": 19.2331670000101,
+      "detections": [
+        {
+          "class_name": "car",
+          "confidence": 0.6004012227058411,
+          "bbox": [
+            75,
+            598,
+            708,
+            958
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 502,
+      "num_detections": 0,
+      "inference_time_ms": 19.20254099999852,
+      "detections": []
+    },
+    {
+      "frame_index": 503,
+      "num_detections": 0,
+      "inference_time_ms": 19.033833000008826,
+      "detections": []
+    },
+    {
+      "frame_index": 504,
+      "num_detections": 0,
+      "inference_time_ms": 18.861958000002232,
+      "detections": []
+    },
+    {
+      "frame_index": 505,
+      "num_detections": 0,
+      "inference_time_ms": 19.21649999999886,
+      "detections": []
+    },
+    {
+      "frame_index": 506,
+      "num_detections": 0,
+      "inference_time_ms": 18.850542000024006,
+      "detections": []
+    },
+    {
+      "frame_index": 507,
+      "num_detections": 0,
+      "inference_time_ms": 19.148834000020543,
+      "detections": []
+    },
+    {
+      "frame_index": 508,
+      "num_detections": 0,
+      "inference_time_ms": 19.284083000002283,
+      "detections": []
+    },
+    {
+      "frame_index": 509,
+      "num_detections": 0,
+      "inference_time_ms": 19.0012500000023,
+      "detections": []
+    },
+    {
+      "frame_index": 510,
+      "num_detections": 0,
+      "inference_time_ms": 19.019334000006438,
+      "detections": []
+    },
+    {
+      "frame_index": 511,
+      "num_detections": 0,
+      "inference_time_ms": 19.476832999998805,
+      "detections": []
+    },
+    {
+      "frame_index": 512,
+      "num_detections": 0,
+      "inference_time_ms": 19.103833000002624,
+      "detections": []
+    },
+    {
+      "frame_index": 513,
+      "num_detections": 0,
+      "inference_time_ms": 19.014665999975477,
+      "detections": []
+    },
+    {
+      "frame_index": 514,
+      "num_detections": 0,
+      "inference_time_ms": 19.171999999997524,
+      "detections": []
+    },
+    {
+      "frame_index": 515,
+      "num_detections": 0,
+      "inference_time_ms": 19.123417000002974,
+      "detections": []
+    },
+    {
+      "frame_index": 516,
+      "num_detections": 0,
+      "inference_time_ms": 18.972499999989623,
+      "detections": []
+    },
+    {
+      "frame_index": 517,
+      "num_detections": 0,
+      "inference_time_ms": 19.09699999998793,
+      "detections": []
+    },
+    {
+      "frame_index": 518,
+      "num_detections": 0,
+      "inference_time_ms": 19.183124999983647,
+      "detections": []
+    },
+    {
+      "frame_index": 519,
+      "num_detections": 0,
+      "inference_time_ms": 19.1677089999871,
+      "detections": []
+    },
+    {
+      "frame_index": 520,
+      "num_detections": 0,
+      "inference_time_ms": 19.197665999996616,
+      "detections": []
+    },
+    {
+      "frame_index": 521,
+      "num_detections": 0,
+      "inference_time_ms": 19.557416999987254,
+      "detections": []
+    },
+    {
+      "frame_index": 522,
+      "num_detections": 0,
+      "inference_time_ms": 19.185416999988547,
+      "detections": []
+    },
+    {
+      "frame_index": 523,
+      "num_detections": 0,
+      "inference_time_ms": 19.105875000008155,
+      "detections": []
+    },
+    {
+      "frame_index": 524,
+      "num_detections": 0,
+      "inference_time_ms": 18.96270800000366,
+      "detections": []
+    },
+    {
+      "frame_index": 525,
+      "num_detections": 0,
+      "inference_time_ms": 19.17633300001853,
+      "detections": []
+    },
+    {
+      "frame_index": 526,
+      "num_detections": 0,
+      "inference_time_ms": 18.989042000015388,
+      "detections": []
+    },
+    {
+      "frame_index": 527,
+      "num_detections": 0,
+      "inference_time_ms": 19.19004199999108,
+      "detections": []
+    },
+    {
+      "frame_index": 528,
+      "num_detections": 0,
+      "inference_time_ms": 18.949792000000798,
+      "detections": []
+    },
+    {
+      "frame_index": 529,
+      "num_detections": 0,
+      "inference_time_ms": 19.044833000009476,
+      "detections": []
+    },
+    {
+      "frame_index": 530,
+      "num_detections": 0,
+      "inference_time_ms": 19.05791600000839,
+      "detections": []
+    },
+    {
+      "frame_index": 531,
+      "num_detections": 0,
+      "inference_time_ms": 18.86683400002198,
+      "detections": []
+    },
+    {
+      "frame_index": 532,
+      "num_detections": 0,
+      "inference_time_ms": 18.872291999997515,
+      "detections": []
+    },
+    {
+      "frame_index": 533,
+      "num_detections": 0,
+      "inference_time_ms": 18.88908299997638,
+      "detections": []
+    },
+    {
+      "frame_index": 534,
+      "num_detections": 0,
+      "inference_time_ms": 19.033457999995562,
+      "detections": []
+    },
+    {
+      "frame_index": 535,
+      "num_detections": 0,
+      "inference_time_ms": 18.96783300000493,
+      "detections": []
+    },
+    {
+      "frame_index": 536,
+      "num_detections": 0,
+      "inference_time_ms": 19.559833000016624,
+      "detections": []
+    },
+    {
+      "frame_index": 537,
+      "num_detections": 0,
+      "inference_time_ms": 21.17179100000044,
+      "detections": []
+    },
+    {
+      "frame_index": 538,
+      "num_detections": 0,
+      "inference_time_ms": 19.329916999993202,
+      "detections": []
+    },
+    {
+      "frame_index": 539,
+      "num_detections": 0,
+      "inference_time_ms": 19.232333999980256,
+      "detections": []
+    },
+    {
+      "frame_index": 540,
+      "num_detections": 0,
+      "inference_time_ms": 18.9680830000043,
+      "detections": []
+    },
+    {
+      "frame_index": 541,
+      "num_detections": 0,
+      "inference_time_ms": 19.092583000002605,
+      "detections": []
+    },
+    {
+      "frame_index": 542,
+      "num_detections": 0,
+      "inference_time_ms": 18.729250000006914,
+      "detections": []
+    },
+    {
+      "frame_index": 543,
+      "num_detections": 0,
+      "inference_time_ms": 19.132584000004726,
+      "detections": []
+    },
+    {
+      "frame_index": 544,
+      "num_detections": 0,
+      "inference_time_ms": 19.197082999994564,
+      "detections": []
+    },
+    {
+      "frame_index": 545,
+      "num_detections": 0,
+      "inference_time_ms": 18.901833000001034,
+      "detections": []
+    },
+    {
+      "frame_index": 546,
+      "num_detections": 0,
+      "inference_time_ms": 18.834875000010243,
+      "detections": []
+    },
+    {
+      "frame_index": 547,
+      "num_detections": 0,
+      "inference_time_ms": 18.835916999989877,
+      "detections": []
+    },
+    {
+      "frame_index": 548,
+      "num_detections": 0,
+      "inference_time_ms": 18.90174999999772,
+      "detections": []
+    },
+    {
+      "frame_index": 549,
+      "num_detections": 0,
+      "inference_time_ms": 19.10745799997926,
+      "detections": []
+    },
+    {
+      "frame_index": 550,
+      "num_detections": 0,
+      "inference_time_ms": 18.95600000000286,
+      "detections": []
+    },
+    {
+      "frame_index": 551,
+      "num_detections": 0,
+      "inference_time_ms": 19.054584000002706,
+      "detections": []
+    },
+    {
+      "frame_index": 552,
+      "num_detections": 0,
+      "inference_time_ms": 18.770250000017086,
+      "detections": []
+    },
+    {
+      "frame_index": 553,
+      "num_detections": 0,
+      "inference_time_ms": 18.863541999991185,
+      "detections": []
+    },
+    {
+      "frame_index": 554,
+      "num_detections": 0,
+      "inference_time_ms": 19.161582999998927,
+      "detections": []
+    },
+    {
+      "frame_index": 555,
+      "num_detections": 0,
+      "inference_time_ms": 18.819083000011005,
+      "detections": []
+    },
+    {
+      "frame_index": 556,
+      "num_detections": 0,
+      "inference_time_ms": 18.931250000008504,
+      "detections": []
+    },
+    {
+      "frame_index": 557,
+      "num_detections": 0,
+      "inference_time_ms": 18.806541999992987,
+      "detections": []
+    },
+    {
+      "frame_index": 558,
+      "num_detections": 0,
+      "inference_time_ms": 18.976707999996734,
+      "detections": []
+    },
+    {
+      "frame_index": 559,
+      "num_detections": 0,
+      "inference_time_ms": 18.901666999994404,
+      "detections": []
+    },
+    {
+      "frame_index": 560,
+      "num_detections": 0,
+      "inference_time_ms": 18.915541999973584,
+      "detections": []
+    },
+    {
+      "frame_index": 561,
+      "num_detections": 0,
+      "inference_time_ms": 19.248624999988806,
+      "detections": []
+    },
+    {
+      "frame_index": 562,
+      "num_detections": 0,
+      "inference_time_ms": 19.149209000005385,
+      "detections": []
+    },
+    {
+      "frame_index": 563,
+      "num_detections": 0,
+      "inference_time_ms": 19.48074999998539,
+      "detections": []
+    },
+    {
+      "frame_index": 564,
+      "num_detections": 0,
+      "inference_time_ms": 18.940832999987833,
+      "detections": []
+    },
+    {
+      "frame_index": 565,
+      "num_detections": 0,
+      "inference_time_ms": 18.832540999994762,
+      "detections": []
+    },
+    {
+      "frame_index": 566,
+      "num_detections": 0,
+      "inference_time_ms": 18.879292000008263,
+      "detections": []
+    },
+    {
+      "frame_index": 567,
+      "num_detections": 0,
+      "inference_time_ms": 18.874207999999726,
+      "detections": []
+    },
+    {
+      "frame_index": 568,
+      "num_detections": 0,
+      "inference_time_ms": 18.908709000015733,
+      "detections": []
+    },
+    {
+      "frame_index": 569,
+      "num_detections": 0,
+      "inference_time_ms": 19.091207999991866,
+      "detections": []
+    },
+    {
+      "frame_index": 570,
+      "num_detections": 0,
+      "inference_time_ms": 19.25633299998708,
+      "detections": []
+    },
+    {
+      "frame_index": 571,
+      "num_detections": 0,
+      "inference_time_ms": 18.946959000004426,
+      "detections": []
+    },
+    {
+      "frame_index": 572,
+      "num_detections": 0,
+      "inference_time_ms": 18.831291999987343,
+      "detections": []
+    },
+    {
+      "frame_index": 573,
+      "num_detections": 0,
+      "inference_time_ms": 18.881666999988056,
+      "detections": []
+    },
+    {
+      "frame_index": 574,
+      "num_detections": 0,
+      "inference_time_ms": 20.23841700000162,
+      "detections": []
+    },
+    {
+      "frame_index": 575,
+      "num_detections": 0,
+      "inference_time_ms": 18.96024999999213,
+      "detections": []
+    },
+    {
+      "frame_index": 576,
+      "num_detections": 0,
+      "inference_time_ms": 18.746749999991152,
+      "detections": []
+    },
+    {
+      "frame_index": 577,
+      "num_detections": 0,
+      "inference_time_ms": 19.005832999994254,
+      "detections": []
+    },
+    {
+      "frame_index": 578,
+      "num_detections": 0,
+      "inference_time_ms": 19.03375000000551,
+      "detections": []
+    },
+    {
+      "frame_index": 579,
+      "num_detections": 0,
+      "inference_time_ms": 19.122334000002184,
+      "detections": []
+    },
+    {
+      "frame_index": 580,
+      "num_detections": 0,
+      "inference_time_ms": 18.898542000016505,
+      "detections": []
+    },
+    {
+      "frame_index": 581,
+      "num_detections": 0,
+      "inference_time_ms": 18.868832999999086,
+      "detections": []
+    },
+    {
+      "frame_index": 582,
+      "num_detections": 0,
+      "inference_time_ms": 18.869499999993877,
+      "detections": []
+    },
+    {
+      "frame_index": 583,
+      "num_detections": 0,
+      "inference_time_ms": 19.02924999998845,
+      "detections": []
+    },
+    {
+      "frame_index": 584,
+      "num_detections": 0,
+      "inference_time_ms": 19.01904200002491,
+      "detections": []
+    },
+    {
+      "frame_index": 585,
+      "num_detections": 0,
+      "inference_time_ms": 18.90516700001399,
+      "detections": []
+    },
+    {
+      "frame_index": 586,
+      "num_detections": 0,
+      "inference_time_ms": 18.86695800001803,
+      "detections": []
+    },
+    {
+      "frame_index": 587,
+      "num_detections": 0,
+      "inference_time_ms": 19.05379200002244,
+      "detections": []
+    },
+    {
+      "frame_index": 588,
+      "num_detections": 0,
+      "inference_time_ms": 18.921583000008013,
+      "detections": []
+    },
+    {
+      "frame_index": 589,
+      "num_detections": 0,
+      "inference_time_ms": 19.061499999992293,
+      "detections": []
+    },
+    {
+      "frame_index": 590,
+      "num_detections": 0,
+      "inference_time_ms": 18.8977920000184,
+      "detections": []
+    },
+    {
+      "frame_index": 591,
+      "num_detections": 0,
+      "inference_time_ms": 18.77329199999167,
+      "detections": []
+    },
+    {
+      "frame_index": 592,
+      "num_detections": 0,
+      "inference_time_ms": 18.96250000001487,
+      "detections": []
+    },
+    {
+      "frame_index": 593,
+      "num_detections": 0,
+      "inference_time_ms": 19.034583999996357,
+      "detections": []
+    },
+    {
+      "frame_index": 594,
+      "num_detections": 0,
+      "inference_time_ms": 18.916374999975005,
+      "detections": []
+    },
+    {
+      "frame_index": 595,
+      "num_detections": 0,
+      "inference_time_ms": 18.788333000003377,
+      "detections": []
+    },
+    {
+      "frame_index": 596,
+      "num_detections": 0,
+      "inference_time_ms": 18.82212500001401,
+      "detections": []
+    },
+    {
+      "frame_index": 597,
+      "num_detections": 0,
+      "inference_time_ms": 19.207208999972636,
+      "detections": []
+    },
+    {
+      "frame_index": 598,
+      "num_detections": 0,
+      "inference_time_ms": 19.094624999979715,
+      "detections": []
+    },
+    {
+      "frame_index": 599,
+      "num_detections": 0,
+      "inference_time_ms": 18.85941699998739,
+      "detections": []
+    },
+    {
+      "frame_index": 600,
+      "num_detections": 0,
+      "inference_time_ms": 19.840749999985974,
+      "detections": []
+    },
+    {
+      "frame_index": 601,
+      "num_detections": 0,
+      "inference_time_ms": 19.386249999996608,
+      "detections": []
+    },
+    {
+      "frame_index": 602,
+      "num_detections": 0,
+      "inference_time_ms": 19.205916999993633,
+      "detections": []
+    },
+    {
+      "frame_index": 603,
+      "num_detections": 0,
+      "inference_time_ms": 19.128999999992402,
+      "detections": []
+    },
+    {
+      "frame_index": 604,
+      "num_detections": 0,
+      "inference_time_ms": 19.224500000007083,
+      "detections": []
+    },
+    {
+      "frame_index": 605,
+      "num_detections": 0,
+      "inference_time_ms": 19.05262500000049,
+      "detections": []
+    },
+    {
+      "frame_index": 606,
+      "num_detections": 0,
+      "inference_time_ms": 18.9087910000012,
+      "detections": []
+    },
+    {
+      "frame_index": 607,
+      "num_detections": 0,
+      "inference_time_ms": 18.77774999999815,
+      "detections": []
+    },
+    {
+      "frame_index": 608,
+      "num_detections": 0,
+      "inference_time_ms": 19.016166999989537,
+      "detections": []
+    },
+    {
+      "frame_index": 609,
+      "num_detections": 0,
+      "inference_time_ms": 19.274791000015057,
+      "detections": []
+    },
+    {
+      "frame_index": 610,
+      "num_detections": 0,
+      "inference_time_ms": 18.928957999975182,
+      "detections": []
+    },
+    {
+      "frame_index": 611,
+      "num_detections": 0,
+      "inference_time_ms": 19.094042000006084,
+      "detections": []
+    },
+    {
+      "frame_index": 612,
+      "num_detections": 0,
+      "inference_time_ms": 19.03066700000977,
+      "detections": []
+    },
+    {
+      "frame_index": 613,
+      "num_detections": 0,
+      "inference_time_ms": 19.408542000007856,
+      "detections": []
+    },
+    {
+      "frame_index": 614,
+      "num_detections": 0,
+      "inference_time_ms": 19.069708000017727,
+      "detections": []
+    },
+    {
+      "frame_index": 615,
+      "num_detections": 0,
+      "inference_time_ms": 18.92404099999112,
+      "detections": []
+    },
+    {
+      "frame_index": 616,
+      "num_detections": 0,
+      "inference_time_ms": 19.16283299999577,
+      "detections": []
+    },
+    {
+      "frame_index": 617,
+      "num_detections": 0,
+      "inference_time_ms": 19.05479100000207,
+      "detections": []
+    },
+    {
+      "frame_index": 618,
+      "num_detections": 0,
+      "inference_time_ms": 18.903666999989355,
+      "detections": []
+    },
+    {
+      "frame_index": 619,
+      "num_detections": 0,
+      "inference_time_ms": 19.371209000013323,
+      "detections": []
+    },
+    {
+      "frame_index": 620,
+      "num_detections": 0,
+      "inference_time_ms": 19.081917000022486,
+      "detections": []
+    },
+    {
+      "frame_index": 621,
+      "num_detections": 0,
+      "inference_time_ms": 19.155624999996235,
+      "detections": []
+    },
+    {
+      "frame_index": 622,
+      "num_detections": 0,
+      "inference_time_ms": 19.155000000012024,
+      "detections": []
+    },
+    {
+      "frame_index": 623,
+      "num_detections": 0,
+      "inference_time_ms": 19.014832999999953,
+      "detections": []
+    },
+    {
+      "frame_index": 624,
+      "num_detections": 0,
+      "inference_time_ms": 18.975833000013154,
+      "detections": []
+    },
+    {
+      "frame_index": 625,
+      "num_detections": 0,
+      "inference_time_ms": 18.92158299997959,
+      "detections": []
+    },
+    {
+      "frame_index": 626,
+      "num_detections": 0,
+      "inference_time_ms": 19.200292000022046,
+      "detections": []
+    },
+    {
+      "frame_index": 627,
+      "num_detections": 0,
+      "inference_time_ms": 19.076000000012527,
+      "detections": []
+    },
+    {
+      "frame_index": 628,
+      "num_detections": 0,
+      "inference_time_ms": 19.04275000001121,
+      "detections": []
+    },
+    {
+      "frame_index": 629,
+      "num_detections": 0,
+      "inference_time_ms": 19.012290999995685,
+      "detections": []
+    },
+    {
+      "frame_index": 630,
+      "num_detections": 0,
+      "inference_time_ms": 18.935584000018935,
+      "detections": []
+    },
+    {
+      "frame_index": 631,
+      "num_detections": 0,
+      "inference_time_ms": 18.969249999997828,
+      "detections": []
+    },
+    {
+      "frame_index": 632,
+      "num_detections": 0,
+      "inference_time_ms": 19.172999999995,
+      "detections": []
+    },
+    {
+      "frame_index": 633,
+      "num_detections": 0,
+      "inference_time_ms": 18.886000000009062,
+      "detections": []
+    },
+    {
+      "frame_index": 634,
+      "num_detections": 0,
+      "inference_time_ms": 19.133000000010725,
+      "detections": []
+    },
+    {
+      "frame_index": 635,
+      "num_detections": 0,
+      "inference_time_ms": 18.790166000002273,
+      "detections": []
+    },
+    {
+      "frame_index": 636,
+      "num_detections": 0,
+      "inference_time_ms": 19.37945800000307,
+      "detections": []
+    },
+    {
+      "frame_index": 637,
+      "num_detections": 0,
+      "inference_time_ms": 18.923166999996965,
+      "detections": []
+    },
+    {
+      "frame_index": 638,
+      "num_detections": 0,
+      "inference_time_ms": 19.131790999978193,
+      "detections": []
+    },
+    {
+      "frame_index": 639,
+      "num_detections": 0,
+      "inference_time_ms": 18.915292000002637,
+      "detections": []
+    },
+    {
+      "frame_index": 640,
+      "num_detections": 0,
+      "inference_time_ms": 19.14766699999859,
+      "detections": []
+    },
+    {
+      "frame_index": 641,
+      "num_detections": 0,
+      "inference_time_ms": 18.94720800001437,
+      "detections": []
+    },
+    {
+      "frame_index": 642,
+      "num_detections": 0,
+      "inference_time_ms": 18.949582999994163,
+      "detections": []
+    },
+    {
+      "frame_index": 643,
+      "num_detections": 0,
+      "inference_time_ms": 19.113000000004376,
+      "detections": []
+    },
+    {
+      "frame_index": 644,
+      "num_detections": 0,
+      "inference_time_ms": 19.119999999986703,
+      "detections": []
+    },
+    {
+      "frame_index": 645,
+      "num_detections": 0,
+      "inference_time_ms": 18.897209000016346,
+      "detections": []
+    },
+    {
+      "frame_index": 646,
+      "num_detections": 0,
+      "inference_time_ms": 18.951292000025433,
+      "detections": []
+    },
+    {
+      "frame_index": 647,
+      "num_detections": 0,
+      "inference_time_ms": 19.04075000001626,
+      "detections": []
+    },
+    {
+      "frame_index": 648,
+      "num_detections": 0,
+      "inference_time_ms": 18.92245900000944,
+      "detections": []
+    },
+    {
+      "frame_index": 649,
+      "num_detections": 0,
+      "inference_time_ms": 18.996541000007028,
+      "detections": []
+    },
+    {
+      "frame_index": 650,
+      "num_detections": 0,
+      "inference_time_ms": 19.154750000012655,
+      "detections": []
+    },
+    {
+      "frame_index": 651,
+      "num_detections": 0,
+      "inference_time_ms": 19.05041699998833,
+      "detections": []
+    },
+    {
+      "frame_index": 652,
+      "num_detections": 0,
+      "inference_time_ms": 19.119249999988597,
+      "detections": []
+    },
+    {
+      "frame_index": 653,
+      "num_detections": 0,
+      "inference_time_ms": 19.03954100001215,
+      "detections": []
+    },
+    {
+      "frame_index": 654,
+      "num_detections": 0,
+      "inference_time_ms": 18.802665999999135,
+      "detections": []
+    },
+    {
+      "frame_index": 655,
+      "num_detections": 0,
+      "inference_time_ms": 19.112083000010216,
+      "detections": []
+    },
+    {
+      "frame_index": 656,
+      "num_detections": 0,
+      "inference_time_ms": 18.95483300000933,
+      "detections": []
+    },
+    {
+      "frame_index": 657,
+      "num_detections": 0,
+      "inference_time_ms": 18.867625000012822,
+      "detections": []
+    },
+    {
+      "frame_index": 658,
+      "num_detections": 0,
+      "inference_time_ms": 18.914582999997265,
+      "detections": []
+    },
+    {
+      "frame_index": 659,
+      "num_detections": 0,
+      "inference_time_ms": 18.87687500001789,
+      "detections": []
+    },
+    {
+      "frame_index": 660,
+      "num_detections": 0,
+      "inference_time_ms": 19.263832999996566,
+      "detections": []
+    },
+    {
+      "frame_index": 661,
+      "num_detections": 0,
+      "inference_time_ms": 19.101582999979883,
+      "detections": []
+    },
+    {
+      "frame_index": 662,
+      "num_detections": 0,
+      "inference_time_ms": 19.003917000020465,
+      "detections": []
+    },
+    {
+      "frame_index": 663,
+      "num_detections": 0,
+      "inference_time_ms": 19.095499999991716,
+      "detections": []
+    },
+    {
+      "frame_index": 664,
+      "num_detections": 0,
+      "inference_time_ms": 18.87754199998426,
+      "detections": []
+    },
+    {
+      "frame_index": 665,
+      "num_detections": 0,
+      "inference_time_ms": 19.11966700001244,
+      "detections": []
+    },
+    {
+      "frame_index": 666,
+      "num_detections": 0,
+      "inference_time_ms": 19.037249999996675,
+      "detections": []
+    },
+    {
+      "frame_index": 667,
+      "num_detections": 0,
+      "inference_time_ms": 19.188917000008132,
+      "detections": []
+    },
+    {
+      "frame_index": 668,
+      "num_detections": 0,
+      "inference_time_ms": 19.049833999986276,
+      "detections": []
+    },
+    {
+      "frame_index": 669,
+      "num_detections": 0,
+      "inference_time_ms": 18.896624999996448,
+      "detections": []
+    },
+    {
+      "frame_index": 670,
+      "num_detections": 0,
+      "inference_time_ms": 18.992667000020447,
+      "detections": []
+    },
+    {
+      "frame_index": 671,
+      "num_detections": 0,
+      "inference_time_ms": 19.10370799998873,
+      "detections": []
+    },
+    {
+      "frame_index": 672,
+      "num_detections": 0,
+      "inference_time_ms": 19.068000000004304,
+      "detections": []
+    },
+    {
+      "frame_index": 673,
+      "num_detections": 0,
+      "inference_time_ms": 18.910667000000103,
+      "detections": []
+    },
+    {
+      "frame_index": 674,
+      "num_detections": 0,
+      "inference_time_ms": 18.763541999987865,
+      "detections": []
+    },
+    {
+      "frame_index": 675,
+      "num_detections": 0,
+      "inference_time_ms": 19.133917000004885,
+      "detections": []
+    },
+    {
+      "frame_index": 676,
+      "num_detections": 1,
+      "inference_time_ms": 19.106375000006892,
+      "detections": [
+        {
+          "class_name": "car",
+          "confidence": 0.41046059131622314,
+          "bbox": [
+            537,
+            626,
+            691,
+            684
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 677,
+      "num_detections": 0,
+      "inference_time_ms": 19.070833000000675,
+      "detections": []
+    },
+    {
+      "frame_index": 678,
+      "num_detections": 0,
+      "inference_time_ms": 19.11945899999523,
+      "detections": []
+    },
+    {
+      "frame_index": 679,
+      "num_detections": 0,
+      "inference_time_ms": 18.928708000004235,
+      "detections": []
+    },
+    {
+      "frame_index": 680,
+      "num_detections": 0,
+      "inference_time_ms": 18.97412499999973,
+      "detections": []
+    },
+    {
+      "frame_index": 681,
+      "num_detections": 0,
+      "inference_time_ms": 18.911624999986998,
+      "detections": []
+    },
+    {
+      "frame_index": 682,
+      "num_detections": 0,
+      "inference_time_ms": 18.797791999986657,
+      "detections": []
+    },
+    {
+      "frame_index": 683,
+      "num_detections": 0,
+      "inference_time_ms": 18.864666999974133,
+      "detections": []
+    },
+    {
+      "frame_index": 684,
+      "num_detections": 0,
+      "inference_time_ms": 18.698749999998654,
+      "detections": []
+    },
+    {
+      "frame_index": 685,
+      "num_detections": 0,
+      "inference_time_ms": 19.11787500000628,
+      "detections": []
+    },
+    {
+      "frame_index": 686,
+      "num_detections": 0,
+      "inference_time_ms": 18.99925000000735,
+      "detections": []
+    },
+    {
+      "frame_index": 687,
+      "num_detections": 0,
+      "inference_time_ms": 18.872958000002882,
+      "detections": []
+    },
+    {
+      "frame_index": 688,
+      "num_detections": 0,
+      "inference_time_ms": 18.90233299999977,
+      "detections": []
+    },
+    {
+      "frame_index": 689,
+      "num_detections": 0,
+      "inference_time_ms": 19.00037500001872,
+      "detections": []
+    },
+    {
+      "frame_index": 690,
+      "num_detections": 0,
+      "inference_time_ms": 19.07420899999579,
+      "detections": []
+    }
+  ]
+}
