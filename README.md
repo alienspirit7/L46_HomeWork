@@ -141,7 +141,6 @@ All settings are centralised:
 | Parameter | Value | Purpose |
 |---|---|---|
 | `CONFIDENCE_THRESHOLD` | `0.4` | Minimum detection confidence |
-| `OUTPUT_FPS` | `5` | FPS for annotated output videos |
 | `MODELS` | YOLOv8n, YOLOv9c, YOLO11n | Models to compare |
 | `TEST_FILES` | test1, test2, test3 | Videos with task-specific target classes |
 
@@ -209,8 +208,8 @@ Eight metrics are computed per (model × video) run:
 
 ### Test Run Summary
 
-- **Total frames analysed:** 1,506 across 3 videos
-- **Total pipeline time:** ~100 seconds (9 model × video runs)
+- **Total frames analysed:** 1,506 across 3 videos (test1: 216, test2: 691, test3: 599)
+- **Total pipeline time:** ~191 seconds (9 model × video runs)
 
 ### Comparison Table
 
@@ -219,11 +218,11 @@ Eight metrics are computed per (model × video) run:
 | Avg Det/Frame | 5.09 | **7.09 ★** | 4.57 | 0.02 | 0.11 | 0.01 | 2.69 | 4.34 | 2.62 | 2.60 | 3.84 | 2.40 |
 | Avg Confidence | 0.67 | **0.78 ★** | 0.70 | 0.46 | 0.54 | 0.49 | 0.63 | 0.64 | 0.61 | 0.59 | 0.66 | 0.60 |
 | Max Confidence | 0.88 | 0.93 | 0.92 | 0.55 | 0.84 | 0.61 | 0.89 | **0.93 ★** | 0.93 | 0.77 | 0.90 | 0.82 |
-| Avg Inference (ms) | 18.9 | 79.9 | 19.1 | **18.5 ★** | 79.7 | 19.3 | 18.7 | 78.9 | 20.4 | 18.7 | 79.5 | 19.6 |
-| FPS | 53.0 | 12.5 | 52.4 | **54.0 ★** | 12.6 | 51.7 | 53.4 | 12.7 | 49.0 | 53.5 | 12.6 | 51.0 |
+| Avg Inference (ms) | 18.7 | 82.6 | 19.6 | 18.7 | 79.8 | 19.1 | **18.7 ★** | 80.0 | 19.3 | 18.7 | 80.8 | 19.3 |
+| FPS | 53.4 | 12.1 | 51.1 | 53.5 | 12.5 | 52.3 | **53.5 ★** | 12.5 | 51.7 | 53.5 | 12.4 | 51.7 |
 | High-Conf Ratio | 0.50 | **0.80 ★** | 0.52 | 0.00 | 0.14 | 0.00 | 0.30 | 0.39 | 0.21 | 0.27 | 0.44 | 0.25 |
 | Consistency | 0.60 | 0.51 | 0.51 | 0.87 | 0.75 | **0.90 ★** | 0.43 | 0.35 | 0.46 | 0.63 | 0.53 | 0.63 |
-| Processing Time (s) | **4.6 ★** | 17.8 | 4.7 | 13.8 | 56.2 | 14.4 | 13.3 | 49.6 | 14.6 | 10.6 | 41.2 | 11.2 |
+| Processing Time (s) | **4.6 ★** | 18.4 | 4.8 | 13.9 | 56.3 | 14.3 | 13.3 | 50.3 | 13.8 | 10.6 | 41.6 | 11.0 |
 
 ### Metrics Chart
 
@@ -237,7 +236,7 @@ Eight metrics are computed per (model × video) run:
 
 | Category | Winner | Key Stat |
 |---|---|---|
-| 🏎️ **Speed** | **YOLOv8n** | 53.5 FPS — 325% faster than YOLOv9c |
+| 🏎️ **Speed** | **YOLOv8n** | 53.5 FPS — 332% faster than YOLOv9c |
 | 🎯 **Detection Quality** | **YOLOv9c** | 44.4% high-confidence ratio |
 | 📊 **Consistency** | **YOLOv8n** | Score: 0.63/1.0 |
 | 🏆 **Overall Winner** | **YOLOv9c** | Led in 4 out of 8 metric categories |
@@ -245,7 +244,7 @@ Eight metrics are computed per (model × video) run:
 ### Vehicle Detection (test1 + test2)
 
 - **YOLOv9c** detected the most vehicles on average (3.6/frame) and had the best confidence (0.66)
-- **YOLOv8n** was the fastest at 53.5 FPS
+- **YOLOv8n** was the fastest at 53.4 FPS
 - **YOLO11n** showed the most consistent frame-to-frame detection on test2 (0.90)
 
 ### Cyclist & Pedestrian Detection (test3)
